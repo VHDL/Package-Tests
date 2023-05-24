@@ -1,0 +1,35 @@
+rm -fr dsim_work && \
+#dlib map -lib ieee ${STD_LIBS}/ieee08 
+#dvhcom -lib not_ieee -F ${DSIM_UNIT_TESTS_HOME}/../vh_tests/std_pkgs/not_ieee/not_ieee08.f
+dvhcom -lib not_ieee -vhdl2008 2008/std_logic_1164.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/std_logic_1164-body.vhdl
+#dvhcom -lib not_ieee -vhdl2008 2008/std_logic_textio.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/numeric_bit.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/numeric_bit-body.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/numeric_bit_unsigned.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/numeric_bit_unsigned-body.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/ieee_bit_context.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/numeric_std.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/numeric_std-body.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/ieee_std_context.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/numeric_std_unsigned.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/numeric_std_unsigned-body.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/math_real.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/math_real-body.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/fixed_float_types.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/fixed_generic_pkg.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/fixed_generic_pkg-body.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/fixed_pkg.vhdl
+
+#dvhcom -lib not_ieee -vhdl2008 2008/float_generic_pkg.vhdl
+#dvhcom -lib not_ieee -vhdl2008 2008/float_generic_pkg-body.vhdl
+#dvhcom -lib not_ieee -vhdl2008 2008/float_pkg.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/math_complex.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/math_complex-body.vhdl
+dvhcom -lib not_ieee -vhdl2008 2008/math_utility_pkg.vhdl
+
+
+#${DSIM_UNIT_TESTS_HOME}/std_pkgs/src/synopsys/std_logic_arith.vhdl
+#${DSIM_UNIT_TESTS_HOME}/std_pkgs/src/synopsys/std_logic_signed.vhdl
+#${DSIM_UNIT_TESTS_HOME}/std_pkgs/src/synopsys/std_logic_unsigned.vhdl
+#-f vital2000_f

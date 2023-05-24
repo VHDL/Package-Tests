@@ -1,0 +1,14 @@
+additions/
+num_bitc49to84/
+numa15to38/
+numa1_1/
+numa1b/
+numa2_1/
+numa3to14b/
+numc1to30/
+numc37to48/
+numl37to50/
+nums1to8/
+string1/
+string2/
+

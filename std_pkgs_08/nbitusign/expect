@@ -1,0 +1,58 @@
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlReport] std_test.vhdl:668 from std_nbitusign.test_proc @ 0: Expect two null bit_vector errors here
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1124 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1124 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=N:[VhdlReport] std_test.vhdl:719 from std_nbitusign.test_proc @ 0: Expect a null bit_vector error here
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1177 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=N:[VhdlReport] std_test.vhdl:119 from std_nbitusign.transtest @ 0: Expect a null string error here
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:2176 from numeric_bit::to_integer @ 0: NUMERIC_BIT.TO_INTEGER: null detected, returning 0
+=N:[VhdlAssert] std_test.vhdl:396 from std_nbitusign.transtest @ 0: Translation test done
+=N:[VhdlReport] std_test.vhdl:875 from std_nbitusign.mathtest @ 0: Expect a vector truncated error here
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlReport] std_test.vhdl:881 from std_nbitusign.mathtest @ 0: Expect two vector truncated errors here
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlReport] std_test.vhdl:914 from std_nbitusign.mathtest @ 0: Expect a vector truncated error here 3
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlReport] std_test.vhdl:985 from std_nbitusign.mathtest @ 0: Expect a vector truncated error here
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlReport] std_test.vhdl:991 from std_nbitusign.mathtest @ 0: Expect two vector truncated errors here
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlReport] std_test.vhdl:1021 from std_nbitusign.mathtest @ 0: Expect a vector truncated error here
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlReport] std_test.vhdl:1027 from std_nbitusign.mathtest @ 0: Expect a vector truncated error here
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlAssert] std_test.vhdl:1696 from std_nbitusign.matchtest @ 0: match test completed
+=N:[VhdlReport] std_test.vhdl:66 from std_nbitusign.tester @ 0: Numeric_Bit_Unsigned Testing complete
+=T:Event queue exhausted - terminating run.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlReport] test.vhdl:668 from nbitusign.test_proc @ 0: Expect two null bit_vector errors here
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1124 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1124 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=N:[VhdlReport] test.vhdl:719 from nbitusign.test_proc @ 0: Expect a null bit_vector error here
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1177 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=N:[VhdlReport] test.vhdl:119 from nbitusign.transtest @ 0: Expect a null string error here
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:2176 from numeric_bit::to_integer @ 0: NUMERIC_BIT.TO_INTEGER: null detected, returning 0
+=N:[VhdlAssert] test.vhdl:396 from nbitusign.transtest @ 0: Translation test done
+=N:[VhdlReport] test.vhdl:875 from nbitusign.mathtest @ 0: Expect a vector truncated error here
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlReport] test.vhdl:881 from nbitusign.mathtest @ 0: Expect two vector truncated errors here
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlReport] test.vhdl:914 from nbitusign.mathtest @ 0: Expect a vector truncated error here 3
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlReport] test.vhdl:985 from nbitusign.mathtest @ 0: Expect a vector truncated error here
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlReport] test.vhdl:991 from nbitusign.mathtest @ 0: Expect two vector truncated errors here
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlReport] test.vhdl:1021 from nbitusign.mathtest @ 0: Expect a vector truncated error here
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlReport] test.vhdl:1027 from nbitusign.mathtest @ 0: Expect a vector truncated error here
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:2221 from numeric_bit::to_unsigned @ 0: NUMERIC_BIT.TO_UNSIGNED: vector truncated
+=N:[VhdlAssert] test.vhdl:1696 from nbitusign.matchtest @ 0: match test completed
+=N:[VhdlReport] test.vhdl:66 from nbitusign.tester @ 0: Numeric_Bit_Unsigned Testing complete
+=T:Event queue exhausted - terminating run.

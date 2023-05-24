@@ -1,0 +1,7 @@
+This needs some work,  might be needing to add ?<=  std_logic.
+
+April 3
+Adding the required stuff to 1164 uncovered a new problem with this casting
+bit_vector(unsigned(i,4))
+
+implemented a  un2bv  ???  needed

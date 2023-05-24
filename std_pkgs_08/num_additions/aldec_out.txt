@@ -1,0 +1,138 @@
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5649 kB (elbread=427 elab2=5057 kernel=164 sdf=0)
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# EXECUTION:: ERROR  : real to_string(3.000000e+000) /=         1234
+# EXECUTION:: ERROR  : real to_string(3.141593e+000) /=         1234
+# EXECUTION:: ERROR  : real to_string(5.000000e+006) /=         1234
+# EXECUTION:: NOTE   : string test complete
+# EXECUTION:: ERROR  : l) std.textio.hread reported good read
+# EXECUTION:: NOTE   : Expect 8 hread errors here
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# EXECUTION:: ERROR  : j) textio.oread not reported error reading short number
+
+# EXECUTION:: NOTE   : Expect 5 oread errors here
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# EXECUTION:: NOTE   : read test complete
+
+# EXECUTION:: NOTE   : sread test complete
+# EXECUTION:: NOTE   : Expect a hread error here
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# EXECUTION:: ERROR  : hRead SLV blank returned 0000000100000000
+# EXECUTION:: NOTE   : Expect a hread error here
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# EXECUTION:: ERROR  : Hread HSLV space returned 0000000100000001
+# EXECUTION:: NOTE   : Expect 4 hread errors here
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# EXECUTION:: ERROR  : Hread HSLV space returned 0000000100010001
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# EXECUTION:: ERROR  : Hread HSLV space returned 0000000100010001
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# EXECUTION:: ERROR  : Hread HSLV space returned 0000000100010001
+
+
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Hread HSLV space returned 0000000100010001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: NOTE   : Expecte 2 HREAD character errors here
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Hread HSLV X1 returned 0000000000010001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Hread HSLV X2 returned 0000000000010001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: NOTE   : Expect a oread error here
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : oread SLV blank returned 000001000000
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: NOTE   : Expect a oread error here
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV space returned 000001000001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: NOTE   : Expect 4 oread errors here
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV space returned 000001001001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV space returned 000001001001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV space returned 000001001001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV space returned 000001001001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: NOTE   : Expecte 2 OREAD character errors here
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV X1 returned 000000001001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "BIT_VECTOR" from line.
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV X2 returned 000000001001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : hRead SLV blank returned 0000000100000000
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Hread HSLV space returned 0000000100000001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Hread HSLV space returned 0000000100010001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Hread HSLV space returned 0000000100010001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : hread bad char 2 returned 0000000100010001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : hread bad char 4 returned 0000000100010001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Hread HSLV X1 returned 0000000000010001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Hread HSLV X2 returned 0000000000010001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : oread SLV blank returned 000001000000
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV space returned 000001000001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV 1 % returned 000001001001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV 2 % returned 000001001001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV 4 % returned 000001001001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV short returned 000001001001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV X1 returned 000000001001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: ERROR  : Oread OSLV X2 returned 000000001001
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# EXECUTION:: NOTE   : File IO test completed
+# EXECUTION:: Time: 0 ps,  Iteration: 7,  Instance: /std_numadd,  Process: fileio.
+# KERNEL: TEE function test Echoed to both Screen and file
+# KERNEL: Second line, echoed to both screen and file
+# EXECUTION:: NOTE   : tee test complete
+# EXECUTION:: Time: 0 ps,  Iteration: 9,  Instance: /std_numadd,  Process: teetest.
+# EXECUTION:: NOTE   : New package standard.textio Testing complete
+# EXECUTION:: Time: 0 ps,  Iteration: 10,  Instance: /std_numadd,  Process: tester.

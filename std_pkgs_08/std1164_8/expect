@@ -1,0 +1,6 @@
+=E:[BinaryOpWidth]:
+=E:[BadTop] No top-level element/configuration 'work.std_std1164_8' found.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=F:[VhdlAssert] not_ieee/2008/std_logic_1164-body.vhdl:262 from std_logic_1164::"nor" @ 0: STD_LOGIC_1164."nor": arguments of overloaded 'nor' operator are not of the same length
+=T:Simulation terminated due to VHDL runtime error.

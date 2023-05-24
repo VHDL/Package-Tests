@@ -1,0 +1,8 @@
+export MY_ROOT=${DSIM_UNIT_TESTS_HOME}/../vh_tests/std_pkgs_08
+rm -fr dsim_work && \
+dlib map -lib ieee ${STD_LIBS}/ieee08  && \
+dlib map -lib not_ieee ${MY_ROOT}/dsim_work
+dvhcom -vhdl2008 -lib work test.vhdl
+dvhcom -vhdl2008 -lib work std_test.vhdl
+dwrapper -linebuf -lib work -top work.std_c37to48x
+dwrapper -linebuf -lib work -top work.c37to48x

@@ -1,0 +1,20 @@
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlAssert] std_test.vhdl:104 from std_string2.testalias @ 0: std_logic_1164 alias test done
+=N:[VhdlAssert] std_test.vhdl:324 from std_string2.test_process @ 0: std_logic_1164 to_string test done
+=N:[VhdlAssert] std_test.vhdl:666 from std_string2.read_test @ 0: std_logic_1164 read/write test done
+=N:[VhdlAssert] std_test.vhdl:690 from std_string2.booltest @ 0: std_logic_1164 boolean test done
+=N:[VhdlAssert] std_test.vhdl:832 from std_string2.minmaxtest @ 0: std_logic_1164 minmax test done
+=N:[VhdlAssert] std_test.vhdl:1088 from std_string2.questionequ @ 0: ?= test complete
+=N:[VhdlReport] std_test.vhdl:58 from std_string2.main @ 0: test_new1164 complete
+=T:Event queue exhausted - terminating run.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlAssert] test.vhdl:104 from string2.testalias @ 0: std_logic_1164 alias test done
+=N:[VhdlAssert] test.vhdl:324 from string2.test_process @ 0: std_logic_1164 to_string test done
+=N:[VhdlAssert] test.vhdl:666 from string2.read_test @ 0: std_logic_1164 read/write test done
+=N:[VhdlAssert] test.vhdl:690 from string2.booltest @ 0: std_logic_1164 boolean test done
+=N:[VhdlAssert] test.vhdl:832 from string2.minmaxtest @ 0: std_logic_1164 minmax test done
+=N:[VhdlAssert] test.vhdl:1088 from string2.questionequ @ 0: ?= test complete
+=N:[VhdlReport] test.vhdl:58 from string2.main @ 0: test_new1164 complete
+=T:Event queue exhausted - terminating run.

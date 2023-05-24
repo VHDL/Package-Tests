@@ -1,0 +1,486 @@
+$date May 04, 2022 12:02:38
+$end
+$version DSim 20220328.4.0.inprog
+$end
+$timescale 1 ns $end
+$scope module $pkgs $end
+$scope module not_ieee.fixed_float_types $end
+$upscope $end
+$scope module not_ieee.fixed_pkg $end
+$var wire 256 T char_to_mvl9[0:255] $end
+$var wire 8 R fixedsynth_or_real $end
+$var wire 8 V nbsp $end
+$upscope $end
+$scope module not_ieee.math_real $end
+$var real 64 < base_eps $end
+$var real 64 = kc $end
+$var real 64 & math_1_over_e $end
+$var real 64 ) math_1_over_pi $end
+$var real 64 3 math_1_over_sqrt_2 $end
+$var real 64 ( math_2_pi $end
+$var real 64 - math_3_pi_over_2 $end
+$var real 64 5 math_deg_to_rad $end
+$var real 64 % math_e $end
+$var real 64 8 math_e_p10 $end
+$var real 64 7 math_e_p2 $end
+$var real 64 9 math_eight_pi $end
+$var real 64 1 math_log10_of_e $end
+$var real 64 0 math_log2_of_e $end
+$var real 64 / math_log_of_10 $end
+$var real 64 . math_log_of_2 $end
+$var real 64 ' math_pi $end
+$var real 64 * math_pi_over_2 $end
+$var real 64 + math_pi_over_3 $end
+$var real 64 , math_pi_over_4 $end
+$var real 64 6 math_rad_to_deg $end
+$var real 64 2 math_sqrt_2 $end
+$var real 64 4 math_sqrt_pi $end
+$var wire 32 ; max_count $end
+$var wire 32 : max_iter $end
+$upscope $end
+$scope module not_ieee.numeric_std $end
+$var wire 8 O no_warning $end
+$upscope $end
+$scope module not_ieee.std_logic_1164 $end
+$var wire 256 I char_to_mvl9[0:255] $end
+$var wire 9 G cvt_to_ux01[0:8] $end
+$var wire 9 E cvt_to_x01[0:8] $end
+$var wire 9 F cvt_to_x01z[0:8] $end
+$var wire 8 K nbsp $end
+$var wire 9 D not_table[0:8] $end
+$upscope $end
+$scope module std $end
+$scope function randomize $end
+$upscope $end
+$upscope $end
+$scope module std.standard $end
+$upscope $end
+$scope module std.textio $end
+$upscope $end
+$scope module work.not_test_pkg $end
+$upscope $end
+$upscope $end
+$scope module fix1 $end
+$scope begin checktest $end
+$var wire 16 c chks16[7:-8] $end
+$var wire 16 b fxzero[7:-8] $end
+$var wire 7 d sm1[3:-3] $end
+$var wire 7 e sm2[3:-3] $end
+$upscope $end
+$scope begin clkprc $end
+$upscope $end
+$scope begin reset_proc $end
+$upscope $end
+$scope begin tester $end
+$upscope $end
+$var wire 1 Y clk $end
+$var wire 4 a cmd[3:0] $end
+$var wire 16 ^ in1[7:-8] $end
+$var wire 16 [ in1slv[15:0] $end
+$var wire 16 _ in2[7:-8] $end
+$var wire 16 \ in2slv[15:0] $end
+$var wire 16 ` out1[7:-8] $end
+$var wire 16 ] out1slv[15:0] $end
+$var wire 1 Z rst_n $end
+$var wire 8 X stop_clock $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bX01XXXXXXXXXXXXXXXXXXXXXX1XXX0XXXXXXXXXXXXXZXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX T
+b01 R
+b10100000 V
+r1e-05 <
+r0.6072529350088814 =
+r0.3678794411714423 &
+r0.3183098861837907 )
+r0.7071067811865476 3
+r6.283185307179586 (
+r4.71238898038469 -
+r0.0174532925199433 5
+r2.718281828459046 %
+r22026.46579480672 8
+r7.38905609893065 7
+r25.13274122871834 9
+r0.4342944819032519 1
+r1.442695040888963 0
+r2.302585092994046 /
+r0.6931471805599454 .
+r3.141592653589793 '
+r1.570796326794897 *
+r1.047197551196598 +
+r0.7853981633974483 ,
+r57.29577951308232 6
+r1.414213562373095 2
+r1.772453850905516 4
+b010010110 ;
+b011011 :
+b0 O
+bX01XXXXXXXXXXXXXXXXXXXXXX1XXX0XXXXXXXXXXXXXZXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX I
+bX01XX01X G
+bX01XX01X E
+bX01ZX01X F
+b10100000 K
+bX10XX10X D
+bX c
+bX b
+bX d
+bX e
+XY
+bX a
+bX ^
+bX [
+bX _
+bX \
+bX `
+bX ]
+XZ
+b0 X
+$end
+0Y
+0Z
+b0 a
+b0 ^
+b0 _
+b0 [
+b0 \
+#250
+1Y
+#500
+0Y
+#750
+1Y
+#1000
+1Z
+0Y
+#1250
+b0100110000000 c
+1Y
+#1500
+0Y
+#1750
+b01110000000 c
+1Y
+#2000
+b011010000000 ^
+b01100000000 _
+0Y
+b011010000000 [
+b01100000000 \
+#2250
+b01001110000000 c
+1Y
+#2500
+b01 a
+0Y
+#2750
+b0100000000 c
+1Y
+#3000
+b010 a
+0Y
+#3250
+b011000100100 c
+1Y
+#3500
+b0 a
+b010000000 ^
+b010000000 _
+0Y
+b010000000 [
+b010000000 \
+#3750
+b0100000000 c
+1Y
+#4000
+b01100100100 ^
+b01100000000 _
+0Y
+b01100100100 [
+b01100000000 \
+#4250
+b1111111100000000 c
+1Y
+#4500
+b011 a
+b010000000 ^
+b010000000 _
+0Y
+b010000000 [
+b010000000 \
+#4750
+b0100110000000 c
+1Y
+#5000
+b1111111110000000 ^
+0Y
+b1111111110000000 [
+#5250
+b01110000000 c
+1Y
+#5500
+b0100 a
+b011010000000 ^
+b01100000000 _
+0Y
+b011010000000 [
+b01100000000 \
+#5750
+b01001110000000 c
+1Y
+#6000
+b0101 a
+0Y
+#6250
+b0100000000 c
+1Y
+#6500
+b0110 a
+0Y
+#6750
+b011000100100 c
+1Y
+#7000
+b0100 a
+b010000000 ^
+b010000000 _
+0Y
+b010000000 [
+b010000000 \
+#7250
+b0100000000 c
+1Y
+#7500
+b01100100100 ^
+b01100000000 _
+0Y
+b01100100100 [
+b01100000000 \
+#7750
+b0110100000000 c
+1Y
+#8000
+b0111 a
+b010000000 ^
+b010000000 _
+0Y
+b010000000 [
+b010000000 \
+#8250
+b1010110 e
+1Y
+#8500
+b011010000000 ^
+0Y
+b011010000000 [
+#8750
+b0111111 e
+1Y
+#9000
+b1000 a
+b010101000000 ^
+b1111101011000000 _
+0Y
+b010101000000 [
+b1111101011000000 \
+#9250
+1Y
+#9500
+b01010100100000 ^
+b01010100100000 _
+0Y
+b01010100100000 [
+b01010100100000 \
+#9750
+1Y
+#10000
+b0 _
+b1001 a
+b011001000000 ^
+0Y
+b0 \
+b011001000000 [
+#10250
+1Y
+#10500
+b0100000000000000 _
+b011101000000 ^
+0Y
+b0100000000000000 \
+b011101000000 [
+#10750
+1Y
+#11000
+b1000000000000000 _
+b011001000000 ^
+0Y
+b1000000000000000 \
+b011001000000 [
+#11250
+1Y
+#11500
+b1100000000000000 _
+b011101000000 ^
+0Y
+b1100000000000000 \
+b011101000000 [
+#11750
+1Y
+#12000
+b1010 a
+b0 _
+b01100000000 ^
+0Y
+b0 \
+b01100000000 [
+#12250
+1Y
+#12500
+b0100000000000000 _
+b010100000000 ^
+0Y
+b0100000000000000 \
+b010100000000 [
+#12750
+1Y
+#13000
+b1000000000000000 _
+b1111101010000000 ^
+0Y
+b1000000000000000 \
+b1111101010000000 [
+#13250
+1Y
+#13500
+b1100000000000000 _
+b011101000000 ^
+0Y
+b1100000000000000 \
+b011101000000 [
+#13750
+1Y
+#14000
+b1000000000000000 _
+b1101011000000000 ^
+0Y
+b1000000000000000 \
+b1101011000000000 [
+#14250
+1Y
+#14500
+b1011 a
+b011001000000 ^
+b011000000000 _
+0Y
+b011001000000 [
+b011000000000 \
+#14750
+b0101010000000 c
+1Y
+#15000
+b1100 a
+0Y
+#15250
+b1111110001100000 c
+1Y
+#15500
+b1101 a
+b010101000000 ^
+b1111111100000000 _
+0Y
+b010101000000 [
+b1111111100000000 \
+#15750
+b0111000000110001 c
+1Y
+#16000
+b1110 a
+b1111100011000000 ^
+b0100000000 _
+0Y
+b1111100011000000 [
+b0100000000 \
+#16250
+bX0001010110 c
+1Y
+#16500
+b1111 a
+b010101000000000 ^
+b010101000000000 _
+0Y
+b010101000000000 [
+b010101000000000 \
+#16750
+bX1010101010 c
+1Y
+#17000
+b010110100000000 ^
+b0101101000000000 _
+0Y
+b010110100000000 [
+b0101101000000000 \
+#17250
+b0XX1010000101010 c
+1Y
+#17500
+b01100100000 ^
+b0 _
+0Y
+b01100100000 [
+b0 \
+#17750
+b01100000110001 c
+1Y
+#18000
+b0110111110101111 ^
+b1111111111111111 _
+0Y
+b0110111110101111 [
+b1111111111111111 \
+#18250
+b1111000000110001 c
+1Y
+#18500
+b0 ^
+b0 _
+0Y
+b0 [
+b0 \
+#18750
+b0111000000110001 c
+1Y
+#19000
+b0111000000000 ^
+b0111000000000 _
+0Y
+b0111000000000 [
+b0111000000000 \
+#19250
+1Y
+#19500
+b1111111111111111 ^
+b1111111111111111 _
+0Y
+b1111111111111111 [
+b1111111111111111 \
+#19750
+1Y
+#20000
+0Y
+#20250
+1Y
+#20500
+0Y
+#20750
+1Y
+#21000
+b0 a
+b0 ^
+b0 _
+0Y
+b0 [
+b0 \
+#21250
+b01 X
+1Y
+#25000

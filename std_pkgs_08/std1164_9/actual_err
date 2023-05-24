@@ -1,0 +1,12 @@
+=E:[BinaryOpWidth]:
+    The following binary operators have operands of differing width:    
+
+                                     LHS width    RHS width    
+
+    std_test.vhdl:28:14    "xnor"    8            10           
+
+Analyzing...
+Elaborating...
+=E:[BadTop] No top-level element/configuration 'work.std_std1164_9' found.
+  Top-level modules:
+    $unit

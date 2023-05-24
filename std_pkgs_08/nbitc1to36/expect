@@ -1,0 +1,54 @@
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1107 from numeric_bit::"<" @ 0: NUMERIC_BIT."<": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1137 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1137 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1149 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1163 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1191 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1208 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1208 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1221 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1221 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1233 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1247 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1261 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1275 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1317 from numeric_bit::"=" @ 0: NUMERIC_BIT."=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1331 from numeric_bit::"=" @ 0: NUMERIC_BIT."=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1345 from numeric_bit::"=" @ 0: NUMERIC_BIT."=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1359 from numeric_bit::"=" @ 0: NUMERIC_BIT."=": null argument detected, returning FALSE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1376 from numeric_bit::"/=" @ 0: NUMERIC_BIT."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1376 from numeric_bit::"/=" @ 0: NUMERIC_BIT."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1401 from numeric_bit::"/=" @ 0: NUMERIC_BIT."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1415 from numeric_bit::"/=" @ 0: NUMERIC_BIT."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1429 from numeric_bit::"/=" @ 0: NUMERIC_BIT."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] src/ieee2008/numeric_bit-body.vhdl:1443 from numeric_bit::"/=" @ 0: NUMERIC_BIT."/=": null argument detected, returning TRUE
+=T:Event queue exhausted - terminating run.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1107 from numeric_bit::"<" @ 0: NUMERIC_BIT."<": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1137 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1137 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1149 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1163 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1191 from numeric_bit::"<=" @ 0: NUMERIC_BIT."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1208 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1208 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1221 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1221 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1233 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1247 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1261 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1275 from numeric_bit::">=" @ 0: NUMERIC_BIT.">=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1317 from numeric_bit::"=" @ 0: NUMERIC_BIT."=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1331 from numeric_bit::"=" @ 0: NUMERIC_BIT."=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1345 from numeric_bit::"=" @ 0: NUMERIC_BIT."=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1359 from numeric_bit::"=" @ 0: NUMERIC_BIT."=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1376 from numeric_bit::"/=" @ 0: NUMERIC_BIT."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1376 from numeric_bit::"/=" @ 0: NUMERIC_BIT."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1401 from numeric_bit::"/=" @ 0: NUMERIC_BIT."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1415 from numeric_bit::"/=" @ 0: NUMERIC_BIT."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1429 from numeric_bit::"/=" @ 0: NUMERIC_BIT."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_bit-body.vhdl:1443 from numeric_bit::"/=" @ 0: NUMERIC_BIT."/=": null argument detected, returning TRUE
+=T:Event queue exhausted - terminating run.

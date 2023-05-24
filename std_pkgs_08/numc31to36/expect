@@ -1,0 +1,34 @@
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=W:[NullArray] std_test.vhdl:56: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:57: Null array passed to relational/conversion operator.
+=W:[NumericStd] std_test.vhdl:60: Arithmetic operand contains metavalues.
+=W:[NumericStd] std_test.vhdl:61: Arithmetic operand contains metavalues.
+=W:[NumericStd] std_test.vhdl:66: Arithmetic operand contains metavalues.
+=W:[NumericStd] std_test.vhdl:67: Arithmetic operand contains metavalues.
+=W:[NullArray] std_test.vhdl:88: Null array passed to relational/conversion operator.
+=W:[NumericStd] std_test.vhdl:93: Arithmetic operand contains metavalues.
+=W:[NumericStd] std_test.vhdl:106: Arithmetic operand contains metavalues.
+=W:[NullArray] std_test.vhdl:107: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:118: Null array passed to relational/conversion operator.
+=W:[NumericStd] std_test.vhdl:120: Arithmetic operand contains metavalues.
+=W:[NumericStd] std_test.vhdl:133: Arithmetic operand contains metavalues.
+=W:[NullArray] std_test.vhdl:134: Null array passed to relational/conversion operator.
+=T:Event queue exhausted - terminating run.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1920 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1920 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1928 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": metavalue detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1928 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": metavalue detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1955 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": metavalue detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1955 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": metavalue detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1970 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1977 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": metavalue detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2001 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": metavalue detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1994 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2018 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2025 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": metavalue detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2049 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": metavalue detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2042 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": null argument detected, returning TRUE
+=T:Event queue exhausted - terminating run.

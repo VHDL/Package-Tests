@@ -1,0 +1,48 @@
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=W:[NullArray] std_test.vhdl:41: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:42: Null array passed to relational/conversion operator.
+=E:[VhdlAssert] std_test.vhdl:42 from std_a11 @ 4: Expected this message as a result
+=W:[NullArray] std_test.vhdl:44: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:41: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:42: Null array passed to relational/conversion operator.
+=E:[VhdlAssert] std_test.vhdl:42 from std_a11 @ 8: Expected this message as a result
+=W:[NullArray] std_test.vhdl:44: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:41: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:42: Null array passed to relational/conversion operator.
+=E:[VhdlAssert] std_test.vhdl:42 from std_a11 @ 12: Expected this message as a result
+=W:[NullArray] std_test.vhdl:44: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:41: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:42: Null array passed to relational/conversion operator.
+=E:[VhdlAssert] std_test.vhdl:42 from std_a11 @ 16: Expected this message as a result
+=W:[NullArray] std_test.vhdl:44: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:41: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:42: Null array passed to relational/conversion operator.
+=E:[VhdlAssert] std_test.vhdl:42 from std_a11 @ 20: Expected this message as a result
+=W:[NullArray] std_test.vhdl:44: Null array passed to relational/conversion operator.
+=F:[VhdlReport] std_test.vhdl:58 from std_a11 @ 21: Test Passed ...
+=T:Simulation terminated due to VHDL runtime error.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1947 from numeric_std::"/=" @ 4: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1795 from numeric_std::"=" @ 4: NUMERIC_STD."=": null argument detected, returning FALSE
+=E:[VhdlAssert] test.vhdl:42 from a11 @ 4: Expected this message as a result
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1947 from numeric_std::"/=" @ 4: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1947 from numeric_std::"/=" @ 8: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1795 from numeric_std::"=" @ 8: NUMERIC_STD."=": null argument detected, returning FALSE
+=E:[VhdlAssert] test.vhdl:42 from a11 @ 8: Expected this message as a result
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1947 from numeric_std::"/=" @ 8: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1947 from numeric_std::"/=" @ 12: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1795 from numeric_std::"=" @ 12: NUMERIC_STD."=": null argument detected, returning FALSE
+=E:[VhdlAssert] test.vhdl:42 from a11 @ 12: Expected this message as a result
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1947 from numeric_std::"/=" @ 12: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1947 from numeric_std::"/=" @ 16: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1795 from numeric_std::"=" @ 16: NUMERIC_STD."=": null argument detected, returning FALSE
+=E:[VhdlAssert] test.vhdl:42 from a11 @ 16: Expected this message as a result
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1947 from numeric_std::"/=" @ 16: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1947 from numeric_std::"/=" @ 20: NUMERIC_STD."/=": null argument detected, returning TRUE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1795 from numeric_std::"=" @ 20: NUMERIC_STD."=": null argument detected, returning FALSE
+=E:[VhdlAssert] test.vhdl:42 from a11 @ 20: Expected this message as a result
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1947 from numeric_std::"/=" @ 20: NUMERIC_STD."/=": null argument detected, returning TRUE
+=F:[VhdlReport] test.vhdl:58 from a11 @ 21: Test Passed ...
+=T:Simulation terminated due to VHDL runtime error.

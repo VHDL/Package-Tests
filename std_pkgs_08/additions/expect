@@ -1,0 +1,24 @@
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlAssert] std_test.vhdl:39 from std_additions.tester @ 0: Simulator resolution is: 1 ns
+=N:[VhdlAssert] std_test.vhdl:84 from std_additions.booleantest @ 0: boolean test completed
+=N:[VhdlAssert] std_test.vhdl:250 from std_additions.booleanvectest @ 0: boolean vector test complete
+=N:[VhdlAssert] std_test.vhdl:702 from std_additions.minmaxtest @ 0: minmax test complete
+=N:[VhdlAssert] std_test.vhdl:933 from std_additions.reducetest @ 0: reduction operation test complete
+=N:[VhdlAssert] std_test.vhdl:988 from std_additions.edgetest @ 12: rising and falling edge test complete
+=N:[VhdlAssert] std_test.vhdl:1208 from std_additions.boolvtest @ 12: BOOLEAN_VECTOR test complete
+=N:[VhdlAssert] std_test.vhdl:1400 from std_additions.questionequ @ 12: ?= test complete
+=N:[VhdlReport] std_test.vhdl:59 from std_additions.tester @ 12: Updated package std.standard Testing complete
+=N:[VhdlFinish] std_test.vhdl:60: std.env.finish called
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlAssert] test.vhdl:39 from additions.tester @ 0: Simulator resolution is: 1 ns
+=N:[VhdlAssert] test.vhdl:84 from additions.booleantest @ 0: boolean test completed
+=N:[VhdlAssert] test.vhdl:250 from additions.booleanvectest @ 0: boolean vector test complete
+=N:[VhdlAssert] test.vhdl:702 from additions.minmaxtest @ 0: minmax test complete
+=N:[VhdlAssert] test.vhdl:933 from additions.reducetest @ 0: reduction operation test complete
+=N:[VhdlAssert] test.vhdl:988 from additions.edgetest @ 12: rising and falling edge test complete
+=N:[VhdlAssert] test.vhdl:1208 from additions.boolvtest @ 12: BOOLEAN_VECTOR test complete
+=N:[VhdlAssert] test.vhdl:1400 from additions.questionequ @ 12: ?= test complete
+=N:[VhdlReport] test.vhdl:59 from additions.tester @ 12: Updated package std.standard Testing complete
+=N:[VhdlFinish] test.vhdl:60: std.env.finish called

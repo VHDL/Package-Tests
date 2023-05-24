@@ -1,0 +1,74 @@
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=W:[NullArray] std_test.vhdl:45: Null array passed to relational/conversion operator.
+=W:[NumericStd] std_test.vhdl:46: Arithmetic operand contains metavalues.
+=N:[VhdlAssert] std_test.vhdl:48 from std_c1to30b @ 0: C.29 tests done
+=W:[NullArray] std_test.vhdl:84: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:87: Null array passed to relational/conversion operator.
+=N:[VhdlAssert] std_test.vhdl:93 from std_c1to30b @ 0: C.1 tests done
+=W:[NullArray] std_test.vhdl:150: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:153: Null array passed to relational/conversion operator.
+=N:[VhdlAssert] std_test.vhdl:157 from std_c1to30b @ 0: C.2 tests done
+=W:[NullArray] std_test.vhdl:202: Null array passed to relational/conversion operator.
+=N:[VhdlAssert] std_test.vhdl:207 from std_c1to30b @ 0: C.3 tests done
+=N:[VhdlAssert] std_test.vhdl:271 from std_c1to30b @ 0: C.4 tests done
+=W:[NullArray] std_test.vhdl:313: Null array passed to relational/conversion operator.
+=N:[VhdlAssert] std_test.vhdl:321 from std_c1to30b @ 0: C.5 tests done
+=W:[NullArray] std_test.vhdl:375: Null array passed to relational/conversion operator.
+=N:[VhdlAssert] std_test.vhdl:379 from std_c1to30b @ 0: C.6 tests done
+=W:[NullArray] std_test.vhdl:421: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:424: Null array passed to relational/conversion operator.
+=N:[VhdlAssert] std_test.vhdl:429 from std_c1to30b @ 0: C.7 tests done
+=W:[NullArray] std_test.vhdl:492: Null array passed to relational/conversion operator.
+=N:[VhdlAssert] std_test.vhdl:497 from std_c1to30b @ 0: C.8 tests done
+=W:[NullArray] std_test.vhdl:542: Null array passed to relational/conversion operator.
+=N:[VhdlAssert] std_test.vhdl:546 from std_c1to30b @ 0: C.11 tests done
+=N:[VhdlAssert] std_test.vhdl:610 from std_c1to30b @ 0: C.12 tests done
+=W:[NullArray] std_test.vhdl:649: Null array passed to relational/conversion operator.
+=N:[VhdlAssert] std_test.vhdl:657 from std_c1to30b @ 0: C.9 tests done
+=W:[NullArray] std_test.vhdl:711: Null array passed to relational/conversion operator.
+=N:[VhdlAssert] std_test.vhdl:719 from std_c1to30b @ 0: C.10 tests done
+=W:[NullArray] std_test.vhdl:734: Null array passed to relational/conversion operator.
+=W:[NumericStd] std_test.vhdl:735: Arithmetic operand contains metavalues.
+=W:[NullArray] std_test.vhdl:736: Null array passed to relational/conversion operator.
+=W:[NumericStd] std_test.vhdl:737: Arithmetic operand contains metavalues.
+=N:[VhdlAssert] std_test.vhdl:744 from std_c1to30b @ 0: c.28, c.30 tests done
+=N:[VhdlAssert] std_test.vhdl:746 from std_c1to30b @ 0: END OF test suite tb3
+=T:Event queue exhausted - terminating run.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1866 from numeric_std::"=" @ 0: NUMERIC_STD."=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1873 from numeric_std::"=" @ 0: NUMERIC_STD."=": metavalue detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:49 from c1to30b @ 0: C.29 tests done
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1160 from numeric_std::">" @ 0: NUMERIC_STD.">": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1160 from numeric_std::">" @ 0: NUMERIC_STD.">": null argument detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:94 from c1to30b @ 0: C.1 tests done
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1187 from numeric_std::">" @ 0: NUMERIC_STD.">": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1187 from numeric_std::">" @ 0: NUMERIC_STD.">": null argument detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:158 from c1to30b @ 0: C.2 tests done
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1210 from numeric_std::">" @ 0: NUMERIC_STD.">": null argument detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:208 from c1to30b @ 0: C.3 tests done
+=N:[VhdlAssert] test.vhdl:272 from c1to30b @ 0: C.4 tests done
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1258 from numeric_std::">" @ 0: NUMERIC_STD.">": null argument detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:322 from c1to30b @ 0: C.5 tests done
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1282 from numeric_std::">" @ 0: NUMERIC_STD.">": null argument detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:380 from c1to30b @ 0: C.6 tests done
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1312 from numeric_std::"<" @ 0: NUMERIC_STD."<": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1312 from numeric_std::"<" @ 0: NUMERIC_STD."<": null argument detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:430 from c1to30b @ 0: C.7 tests done
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1339 from numeric_std::"<" @ 0: NUMERIC_STD."<": null argument detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:498 from c1to30b @ 0: C.8 tests done
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1410 from numeric_std::"<" @ 0: NUMERIC_STD."<": null argument detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:547 from c1to30b @ 0: C.11 tests done
+=N:[VhdlAssert] test.vhdl:611 from c1to30b @ 0: C.12 tests done
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1362 from numeric_std::"<" @ 0: NUMERIC_STD."<": null argument detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:658 from c1to30b @ 0: C.9 tests done
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1386 from numeric_std::"<" @ 0: NUMERIC_STD."<": null argument detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:720 from c1to30b @ 0: C.10 tests done
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1842 from numeric_std::"=" @ 0: NUMERIC_STD."=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1849 from numeric_std::"=" @ 0: NUMERIC_STD."=": metavalue detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1890 from numeric_std::"=" @ 0: NUMERIC_STD."=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1897 from numeric_std::"=" @ 0: NUMERIC_STD."=": metavalue detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:745 from c1to30b @ 0: c.28, c.30 tests done
+=N:[VhdlAssert] test.vhdl:747 from c1to30b @ 0: END OF test suite tb3
+=T:Event queue exhausted - terminating run.

@@ -1,0 +1,120 @@
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlAssert] std_test.vhdl:313 from std_nbitusign2.test_proc @ 0: Starting compare test
+=N:[VhdlReport] std_test.vhdl:329 from std_nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:298: Arithmetic operand contains metavalues.
+=N:[VhdlReport] std_test.vhdl:335 from std_nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:298: Arithmetic operand contains metavalues.
+=N:[VhdlReport] std_test.vhdl:380 from std_nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:318: Arithmetic operand contains metavalues.
+=N:[VhdlReport] std_test.vhdl:386 from std_nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:318: Arithmetic operand contains metavalues.
+=N:[VhdlReport] std_test.vhdl:434 from std_nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:238: Arithmetic operand contains metavalues.
+=N:[VhdlReport] std_test.vhdl:440 from std_nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:238: Arithmetic operand contains metavalues.
+=N:[VhdlReport] std_test.vhdl:487 from std_nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:258: Arithmetic operand contains metavalues.
+=N:[VhdlReport] std_test.vhdl:493 from std_nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:258: Arithmetic operand contains metavalues.
+=N:[VhdlReport] std_test.vhdl:540 from std_nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:218: Arithmetic operand contains metavalues.
+=N:[VhdlReport] std_test.vhdl:546 from std_nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:218: Arithmetic operand contains metavalues.
+=N:[VhdlReport] std_test.vhdl:593 from std_nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:278: Arithmetic operand contains metavalues.
+=N:[VhdlReport] std_test.vhdl:599 from std_nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:278: Arithmetic operand contains metavalues.
+=W:[NullArray] src/ieee2008/numeric_std_unsigned-body.vhdl:258: Null array passed to relational/conversion operator.
+=W:[NullArray] src/ieee2008/numeric_std_unsigned-body.vhdl:258: Null array passed to relational/conversion operator.
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:258: Arithmetic operand contains metavalues.
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:258: Arithmetic operand contains metavalues.
+=W:[NullArray] src/ieee2008/numeric_std_unsigned-body.vhdl:270: Null array passed to relational/conversion operator.
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:270: Arithmetic operand contains metavalues.
+=N:[VhdlAssert] std_test.vhdl:93 from std_nbitusign2.transtest @ 0: Starting Translation test
+=W:[NullArray] src/ieee2008/numeric_std_unsigned-body.vhdl:564: Null array passed to relational/conversion operator.
+=W:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:564: Arithmetic operand contains metavalues.
+=N:[VhdlAssert] std_test.vhdl:300 from std_nbitusign2.transtest @ 0: Translation test complete
+=N:[VhdlAssert] std_test.vhdl:829 from std_nbitusign2.mathtest @ 0: Starting Math test
+=W:[ArgTruncated] src/ieee2008/numeric_std_unsigned-body.vhdl:79: Integral arithmetic operand truncated to 2 bit(s).
+=W:[ArgTruncated] src/ieee2008/numeric_std_unsigned-body.vhdl:79: Integral arithmetic operand truncated to 1 bit(s).
+=W:[ArgTruncated] src/ieee2008/numeric_std_unsigned-body.vhdl:79: Integral arithmetic operand truncated to 1 bit(s).
+=W:[ArgTruncated] src/ieee2008/numeric_std_unsigned-body.vhdl:85: Integral arithmetic operand truncated to 2 bit(s).
+=W:[ArgTruncated] src/ieee2008/numeric_std_unsigned-body.vhdl:111: Integral arithmetic operand truncated to 2 bit(s).
+=W:[ArgTruncated] src/ieee2008/numeric_std_unsigned-body.vhdl:111: Integral arithmetic operand truncated to 1 bit(s).
+=W:[ArgTruncated] src/ieee2008/numeric_std_unsigned-body.vhdl:111: Integral arithmetic operand truncated to 1 bit(s).
+=W:[ArgTruncated] src/ieee2008/numeric_std_unsigned-body.vhdl:117: Integral arithmetic operand truncated to 2 bit(s).
+=W:[ArgTruncated] src/ieee2008/numeric_std_unsigned-body.vhdl:117: Integral arithmetic operand truncated to 4 bit(s).
+=N:[VhdlAssert] std_test.vhdl:1233 from std_nbitusign2.misctest @ 0: Starting shift test
+=N:[VhdlReport] std_test.vhdl:1522 from std_nbitusign2.matchtest @ 0: matchtest starting ...
+=N:[VhdlReport] std_test.vhdl:1808 from std_nbitusign2.matchtest @ 0: Expect an error from a compare function here
+=E:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:397: Matching operand contains don't-care.
+=N:[VhdlReport] std_test.vhdl:1896 from std_nbitusign2.matchtest @ 0: Expect an error from a compare function here
+=E:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:417: Matching operand contains don't-care.
+=N:[VhdlReport] std_test.vhdl:1984 from std_nbitusign2.matchtest @ 0: Expect an error from a compare function here
+=E:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:377: Matching operand contains don't-care.
+=N:[VhdlReport] std_test.vhdl:2101 from std_nbitusign2.matchtest @ 0: Expect an error from a compare function here
+=E:[NumericStd] src/ieee2008/numeric_std_unsigned-body.vhdl:437: Matching operand contains don't-care.
+=N:[VhdlAssert] std_test.vhdl:2117 from std_nbitusign2.matchtest @ 0: match test completed
+=N:[VhdlReport] std_test.vhdl:74 from std_nbitusign2.tester @ 0: Numeric_std_unsigned std_ulogic_vector Testing complete
+=T:Event queue exhausted - terminating run.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlAssert] test.vhdl:313 from nbitusign2.test_proc @ 0: Starting compare test
+=N:[VhdlReport] test.vhdl:329 from nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1776 from numeric_std::"=" @ 0: NUMERIC_STD."=": metavalue detected, returning FALSE
+=N:[VhdlReport] test.vhdl:335 from nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1776 from numeric_std::"=" @ 0: NUMERIC_STD."=": metavalue detected, returning FALSE
+=N:[VhdlReport] test.vhdl:380 from nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1928 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": metavalue detected, returning TRUE
+=N:[VhdlReport] test.vhdl:386 from nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1928 from numeric_std::"/=" @ 0: NUMERIC_STD."/=": metavalue detected, returning TRUE
+=N:[VhdlReport] test.vhdl:434 from nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1320 from numeric_std::"<" @ 0: NUMERIC_STD."<": metavalue detected, returning FALSE
+=N:[VhdlReport] test.vhdl:440 from nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1320 from numeric_std::"<" @ 0: NUMERIC_STD."<": metavalue detected, returning FALSE
+=N:[VhdlReport] test.vhdl:487 from nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1472 from numeric_std::"<=" @ 0: NUMERIC_STD."<=": metavalue detected, returning FALSE
+=N:[VhdlReport] test.vhdl:493 from nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1472 from numeric_std::"<=" @ 0: NUMERIC_STD."<=": metavalue detected, returning FALSE
+=N:[VhdlReport] test.vhdl:540 from nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1168 from numeric_std::">" @ 0: NUMERIC_STD.">": metavalue detected, returning FALSE
+=N:[VhdlReport] test.vhdl:546 from nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1168 from numeric_std::">" @ 0: NUMERIC_STD.">": metavalue detected, returning FALSE
+=N:[VhdlReport] test.vhdl:593 from nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1624 from numeric_std::">=" @ 0: NUMERIC_STD.">=": metavalue detected, returning FALSE
+=N:[VhdlReport] test.vhdl:599 from nbitusign2.test_proc @ 0: Expect Metavalue warning
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1624 from numeric_std::">=" @ 0: NUMERIC_STD.">=": metavalue detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1464 from numeric_std::"<=" @ 0: NUMERIC_STD."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1464 from numeric_std::"<=" @ 0: NUMERIC_STD."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1472 from numeric_std::"<=" @ 0: NUMERIC_STD."<=": metavalue detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1472 from numeric_std::"<=" @ 0: NUMERIC_STD."<=": metavalue detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1562 from numeric_std::"<=" @ 0: NUMERIC_STD."<=": null argument detected, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:1569 from numeric_std::"<=" @ 0: NUMERIC_STD."<=": metavalue detected, returning FALSE
+=N:[VhdlAssert] test.vhdl:93 from nbitusign2.transtest @ 0: Starting Translation test
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3029 from numeric_std::to_integer @ 0: NUMERIC_STD.TO_INTEGER: null detected, returning 0
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3036 from numeric_std::to_integer @ 0: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+=N:[VhdlAssert] test.vhdl:300 from nbitusign2.transtest @ 0: Translation test complete
+=N:[VhdlAssert] test.vhdl:829 from nbitusign2.mathtest @ 0: Starting Math test
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3089 from numeric_std::to_unsigned @ 0: NUMERIC_STD.TO_UNSIGNED: vector truncated
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3089 from numeric_std::to_unsigned @ 0: NUMERIC_STD.TO_UNSIGNED: vector truncated
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3089 from numeric_std::to_unsigned @ 0: NUMERIC_STD.TO_UNSIGNED: vector truncated
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3089 from numeric_std::to_unsigned @ 0: NUMERIC_STD.TO_UNSIGNED: vector truncated
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3089 from numeric_std::to_unsigned @ 0: NUMERIC_STD.TO_UNSIGNED: vector truncated
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3089 from numeric_std::to_unsigned @ 0: NUMERIC_STD.TO_UNSIGNED: vector truncated
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3089 from numeric_std::to_unsigned @ 0: NUMERIC_STD.TO_UNSIGNED: vector truncated
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3089 from numeric_std::to_unsigned @ 0: NUMERIC_STD.TO_UNSIGNED: vector truncated
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3089 from numeric_std::to_unsigned @ 0: NUMERIC_STD.TO_UNSIGNED: vector truncated
+=N:[VhdlAssert] test.vhdl:1233 from nbitusign2.misctest @ 0: Starting shift test
+=N:[VhdlReport] test.vhdl:1522 from nbitusign2.matchtest @ 0: matchtest starting ...
+=N:[VhdlReport] test.vhdl:1808 from nbitusign2.matchtest @ 0: Expect an error from a compare function here
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2308 from numeric_std::"?<" @ 0: NUMERIC_STD."?<": '-' found in compare string
+=N:[VhdlReport] test.vhdl:1896 from nbitusign2.matchtest @ 0: Expect an error from a compare function here
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2400 from numeric_std::"?<=" @ 0: NUMERIC_STD."?<=": '-' found in compare string
+=N:[VhdlReport] test.vhdl:1984 from nbitusign2.matchtest @ 0: Expect an error from a compare function here
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2216 from numeric_std::"?>" @ 0: NUMERIC_STD."?>": '-' found in compare string
+=N:[VhdlReport] test.vhdl:2101 from nbitusign2.matchtest @ 0: Expect an error from a compare function here
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2492 from numeric_std::"?>=" @ 0: NUMERIC_STD."?>=": '-' found in compare string
+=N:[VhdlAssert] test.vhdl:2117 from nbitusign2.matchtest @ 0: match test completed
+=N:[VhdlReport] test.vhdl:74 from nbitusign2.tester @ 0: Numeric_std_unsigned std_ulogic_vector Testing complete
+=T:Event queue exhausted - terminating run.

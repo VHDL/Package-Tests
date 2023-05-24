@@ -1,0 +1,27 @@
+=redmine:[Dev:  this test has a few failing items,  correct test or is a bug.]
+GHDL out >>>
+std_test.vhdl:895:5:@32ns:(assertion note): std_ulogic and vector logical operators test completed.
+std_test.vhdl:134:5:@32ns:(assertion error): 1 ?< U = U
+std_test.vhdl:175:5:@32ns:(assertion error): 1 ?<= U = U
+std_test.vhdl:211:5:@32ns:(assertion error): 1 ?> U = U
+std_test.vhdl:252:5:@32ns:(assertion error): 1 ?>= U = U
+std_test.vhdl:340:5:@32ns:(assertion error): 000-000L ?= U001000H = 0
+std_test.vhdl:347:5:@32ns:(assertion error): L00-000U ?= H0010000 = 0
+std_test.vhdl:394:7:@32ns:(report note): Expect a ?= length mismatch warning here
+std_logic_1164.vhdl:58:3:@32ns:(assertion error): parameters of '?=' array operator are not of the same length
+std_test.vhdl:398:7:@32ns:(assertion error): slv 0000000 ?= 00000000 = 0
+std_test.vhdl:484:5:@32ns:(assertion error): 000-000L ?/= U001000H = 1
+std_test.vhdl:491:5:@32ns:(assertion error): L00-000U ?/= H0010000 = 1
+std_test.vhdl:538:7:@32ns:(report note): Expect a ?/= length mismatch warning here
+std_logic_1164.vhdl:58:3:@32ns:(assertion error): parameters of '?=' array operator are not of the same length
+std_test.vhdl:542:7:@32ns:(assertion error): slv 0000000 ?/= 00000000 = 1
+std_test.vhdl:661:7:@32ns:(report note): Expect a ?= length mismatch warning here
+std_logic_1164.vhdl:58:3:@32ns:(assertion error): parameters of '?=' array operator are not of the same length
+std_test.vhdl:665:7:@32ns:(assertion error): sulv 0000000 ?= 00000000 = 0
+std_test.vhdl:751:5:@32ns:(assertion error): 000-000L ?/= U001000H = 1
+std_test.vhdl:758:5:@32ns:(assertion error): L00-000U ?/= H0010000 = 1
+std_test.vhdl:805:7:@32ns:(report note): Expect a ?/= length mismatch warning here
+std_logic_1164.vhdl:58:3:@32ns:(assertion error): parameters of '?=' array operator are not of the same length
+std_test.vhdl:809:7:@32ns:(assertion error): sulv 0000000 ?/= 00000000 = 1
+std_test.vhdl:814:5:@32ns:(assertion note): ?= testing completed
+std_test.vhdl:34:5:@32ns:(report note): std_logic_1164 additions test completed

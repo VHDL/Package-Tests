@@ -1,0 +1,16 @@
+rm -fr dsim_work && \
+dlib map -lib ieee ${STD_LIBS}/ieee08  && \
+echo $DSIM_UNIT_TESTS_HOME
+#dlib map -lib not_ieee ${DSIM_UNIT_TESTS_HOME}/../vh_tests/std_pkgs_08/dsim_work
+dlib map -lib not_ieee ../../std_pkgs_08/dsim_work
+dvhcom -vhdl2008 -lib work not_test_pkg.vhdl
+dvhcom -vhdl2008 -lib work test.vhdl
+dvhcom -vhdl2008 -lib work test_pkg.vhdl
+dvhcom -vhdl2008 -lib work std_test.vhdl
+dvhcom -vhdl2008 -lib work cov_cfg.vhdl
+dwrapper -suppress warn -code-cov all -linebuf -lib work -top work.std_a11
+mv metrics.db t2.db
+cp dsim.log t2.log
+dwrapper -suppress warn -code-cov all -linebuf -lib work -top work.cover
+mv metrics.db t1.db
+mv dsim.log t1.log

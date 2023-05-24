@@ -1,0 +1,54 @@
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlAssert] std_test.vhdl:752 from std_c37to48.verify @ 144: boolean test completed
+=W:[NumericStd] std_test.vhdl:1134: Null or unequal lengths in std_match.
+=W:[NumericStd] std_test.vhdl:1138: Null or unequal lengths in std_match.
+=W:[NumericStd] std_test.vhdl:1144: Null or unequal lengths in std_match.
+=W:[NumericStd] std_test.vhdl:1148: Null or unequal lengths in std_match.
+=N:[VhdlReport] std_test.vhdl:1569 from std_c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[NumericStd] std_test.vhdl:1572: Matching operand contains don't-care.
+=N:[VhdlReport] std_test.vhdl:1657 from std_c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[NumericStd] std_test.vhdl:1660: Matching operand contains don't-care.
+=N:[VhdlReport] std_test.vhdl:1745 from std_c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[NumericStd] std_test.vhdl:1748: Matching operand contains don't-care.
+=N:[VhdlReport] std_test.vhdl:1861 from std_c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[NumericStd] std_test.vhdl:1864: Matching operand contains don't-care.
+=N:[VhdlReport] std_test.vhdl:2076 from std_c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[NumericStd] std_test.vhdl:2079: Matching operand contains don't-care.
+=N:[VhdlReport] std_test.vhdl:2185 from std_c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[NumericStd] std_test.vhdl:2188: Matching operand contains don't-care.
+=N:[VhdlReport] std_test.vhdl:2287 from std_c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[NumericStd] std_test.vhdl:2290: Matching operand contains don't-care.
+=N:[VhdlReport] std_test.vhdl:2403 from std_c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[NumericStd] std_test.vhdl:2406: Matching operand contains don't-care.
+=N:[VhdlAssert] std_test.vhdl:2422 from std_c37to48.matchtest @ 144: match test completed
+=N:[VhdlAssert] std_test.vhdl:2473 from std_c37to48.sizerestest @ 144: Size_RES testing completed
+=N:[VhdlAssert] std_test.vhdl:674 from std_c37to48.testblock @ 144: numeric_std test_minmax complete
+=T:Event queue exhausted - terminating run.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlAssert] test.vhdl:752 from c37to48.verify @ 144: boolean test completed
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3681 from numeric_std::std_match @ 144: NUMERIC_STD.STD_MATCH: L'LENGTH /= R'LENGTH, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3681 from numeric_std::std_match @ 144: NUMERIC_STD.STD_MATCH: L'LENGTH /= R'LENGTH, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3707 from numeric_std::std_match @ 144: NUMERIC_STD.STD_MATCH: L'LENGTH /= R'LENGTH, returning FALSE
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:3707 from numeric_std::std_match @ 144: NUMERIC_STD.STD_MATCH: L'LENGTH /= R'LENGTH, returning FALSE
+=N:[VhdlReport] test.vhdl:1569 from c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2308 from numeric_std::"?<" @ 144: NUMERIC_STD."?<": '-' found in compare string
+=N:[VhdlReport] test.vhdl:1657 from c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2400 from numeric_std::"?<=" @ 144: NUMERIC_STD."?<=": '-' found in compare string
+=N:[VhdlReport] test.vhdl:1745 from c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2216 from numeric_std::"?>" @ 144: NUMERIC_STD."?>": '-' found in compare string
+=N:[VhdlReport] test.vhdl:1861 from c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2492 from numeric_std::"?>=" @ 144: NUMERIC_STD."?>=": '-' found in compare string
+=N:[VhdlReport] test.vhdl:2076 from c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2341 from numeric_std::"?<" @ 144: NUMERIC_STD."?<": '-' found in compare string
+=N:[VhdlReport] test.vhdl:2185 from c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2433 from numeric_std::"?<=" @ 144: NUMERIC_STD."?<=": '-' found in compare string
+=N:[VhdlReport] test.vhdl:2287 from c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2249 from numeric_std::"?>" @ 144: NUMERIC_STD."?>": '-' found in compare string
+=N:[VhdlReport] test.vhdl:2403 from c37to48.matchtest @ 144: Expect an error from a compare function here
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2525 from numeric_std::"?>=" @ 144: NUMERIC_STD."?>=": '-' found in compare string
+=N:[VhdlAssert] test.vhdl:2422 from c37to48.matchtest @ 144: match test completed
+=N:[VhdlAssert] test.vhdl:2473 from c37to48.sizerestest @ 144: Size_RES testing completed
+=N:[VhdlAssert] test.vhdl:674 from c37to48.testblock @ 144: numeric_std test_minmax complete
+=T:Event queue exhausted - terminating run.

@@ -1,0 +1,7 @@
+rm -fr dsim_work && \
+dlib map -lib ieee ${STD_LIBS}/ieee08  && \
+dlib map -lib not_ieee ${DSIM_UNIT_TESTS_HOME}/../vh_tests/std_pkgs_08/dsim_work
+dvhcom -vhdl2008 -lib work test.vhdl
+dvhcom -vhdl2008 -lib work std_test.vhdl
+dwrapper -linebuf -lib work -top work.std_arith_1
+dwrapper -linebuf -lib work -top work.arith_5

@@ -1,0 +1,16 @@
+rm -fr dsim_work && \
+dlib map -lib ieee ${STD_LIBS}/ieee08  && \
+dlib map -lib not_ieee ../dsim_work
+#dvhcom -vhdl2008 -lib work not_test_pkg.vhdl
+dvhcom -vhdl2008 -lib work math_utility_pkg.vhdl
+#dvhcom -vhdl2008 -lib work fixed_synth.vhdl
+#dvhcom -vhdl2008 -lib work test.vhdl
+#dvhcom -vhdl2008 -lib work test_pkg.vhdl
+dvhcom -vhdl2008 -lib work std_fixed_synth.vhdl
+dvhcom -vhdl2008 -lib work std_test.vhdl
+dwrapper -linebuf -lib work -top work.std_fix1
+#cp metrics.db t2.db
+#cp dsim.log t2.log
+#dwrapper +acc+b -waves sim.vcd -code-cov all -linebuf -lib work -top work.fix1
+#cp metrics.db t1.db
+#cp dsim.log t1.log

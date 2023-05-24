@@ -1,0 +1,16 @@
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlAssert] std_test.vhdl:312 from std_arith_4 @ 0: Note: = expected fail function ID 341.
+=N:[VhdlAssert] std_test.vhdl:323 from std_arith_4 @ 0: Note: = expected fail function ID 342.
+=N:[VhdlAssert] std_test.vhdl:334 from std_arith_4 @ 0: note: = expected fail function ID 343.
+=N:[VhdlAssert] std_test.vhdl:380 from std_arith_4 @ 0: Note:  Not equal  but are ..  coverage ID 350
+=N:[VhdlAssert] std_test.vhdl:389 from std_arith_4 @ 0: END OF test suite arith_4
+=T:Event queue exhausted - terminating run.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlAssert] test.vhdl:312 from arith_4 @ 0: Note: = expected fail function ID 341.
+=N:[VhdlAssert] test.vhdl:323 from arith_4 @ 0: Note: = expected fail function ID 342.
+=N:[VhdlAssert] test.vhdl:334 from arith_4 @ 0: note: = expected fail function ID 343.
+=N:[VhdlAssert] test.vhdl:380 from arith_4 @ 0: Note:  Not equal  but are ..  coverage ID 350
+=N:[VhdlAssert] test.vhdl:389 from arith_4 @ 0: END OF test suite arith_4
+=T:Event queue exhausted - terminating run.

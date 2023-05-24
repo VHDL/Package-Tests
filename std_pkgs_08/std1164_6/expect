@@ -1,0 +1,6 @@
+=E:[BinaryOpWidth]:
+=E:[BadTop] No top-level element/configuration 'work.std_std1164_6' found.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=F:[VhdlAssert] not_ieee/2008/std_logic_1164-body.vhdl:282 from std_logic_1164::"xor" @ 0: STD_LOGIC_1164."xor": arguments of overloaded 'xor' operator are not of the same length
+=T:Simulation terminated due to VHDL runtime error.

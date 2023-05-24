@@ -1,0 +1,11 @@
+This test has several issues.
+
+Aldec will not get past 
+    assert STD_ULOGIC_VECTOR'("0001") <= 2
+                                         report "Test STD_C.17.1 failing."
+                                         severity failure;
+
+
+GHDL with some switches will run completely.
+
+Dsim finds vector size diff.

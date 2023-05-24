@@ -1,0 +1,52 @@
+test_fixed.vhdl:use ieee.numeric_std.all;  <<<<---  having problems with  resize template?
+
+test_fixed2.vhdl:use ieee.numeric_std.all;
+test_fixed2.vhdl:    -- loop copied from "numeric_std_tb1.vhd" to check the div and mod functions
+test_fixed3.vhdl:use ieee.numeric_std.all;
+test_fixed_nr.vhdl:use ieee.numeric_std.all;
+test_fixed_nr.vhdl:use ieee.numeric_std.all;
+test_fixed_synth.vhdl:use ieee.numeric_std.all;
+test_float_synth.vhdl:use ieee.numeric_std.all;
+test_fp32.vhdl:use ieee.numeric_std.all;
+test_fp32.vhdl:    -- loop copied from "numeric_std_tb1.vhd" to check the rem and mod functions
+test_fpfixed.vhdl:use ieee.numeric_std.all;               -- IEEE 1076.3
+test_fphdl.vhdl:use ieee.numeric_std.all;
+test_fphdl128.vhdl:use ieee.numeric_std.all;
+test_fphdl16.vhdl:use ieee.numeric_std.all;
+test_fphdl64.vhdl:use ieee.numeric_std.all;
+test_fphdlbase.vhdl:use ieee.numeric_std.all;
+
+**test_minmax.vhdl:-- Title      : Test vector for numeric_std package.
+**test_minmax.vhdl:use ieee.numeric_std.all;
+**test_minmax.vhdl:    assert (false) report "numeric_std test_minmax complete" severity note;
+
+test_nbuns.vhdl:-- check of all numeric_std shift functions
+test_nbuns.vhdl:    -- copied from numeric_std_tb4.vhd
+test_nbuns.vhdl:    -- copied from numeric_std_tb1.vhd
+test_nbuns.vhdl:    -- shift test, copied from numeric_std_tb2.vhd
+test_new1164.vhdl:    -- max routine will be different depending on the "numeric_std_unsigned"
+test_nuns.sed:s@auns ?= buns@IEEE.numeric_std_unsigned.\\?=\\ (auns, buns)@
+test_nuns.sed:s@auns ?/= buns@IEEE.numeric_std_unsigned.\\?/=\\ (auns, buns)@
+test_nuns.sed:s@check6 ?= buns@IEEE.numeric_std_unsigned.\\?=\\ (check6, buns)@
+test_nuns.sed:s@check6 ?/= buns@IEEE.numeric_std_unsigned.\\?/=\\ (check6, buns)@
+test_nuns.sed:s@:= maximum@:= IEEE.numeric_std_unsigned.maximum@
+test_nuns.sed:s@:= minimum@:= IEEE.numeric_std_unsigned.minimum@
+test_nuns.vhdl:-- check of all numeric_std shift functions
+test_nuns.vhdl:use ieee.numeric_std_unsigned.all;
+test_nuns.vhdl:    report "Numeric_std_unsigned Testing complete" severity note;
+test_nuns.vhdl:  -- purpose: Test routines for the numeric_std_unsigned package
+test_nuns.vhdl:    -- copied from numeric_std_tb4.vhd
+test_nuns.vhdl:    -- copied from numeric_std_tb1.vhd
+test_nuns.vhdl:    -- shift test, copied from numeric_std_tb2.vhd
+test_nuns_su.vhdl:-- check of all numeric_std shift functions
+test_nuns_su.vhdl:use ieee.numeric_std_unsigned.all;
+test_nuns_su.vhdl:    report "Numeric_std_unsigned std_ulogic_vector Testing complete" severity note;
+test_nuns_su.vhdl:  -- purpose: Test routines for the numeric_std_unsigned package
+test_nuns_su.vhdl:    -- copied from numeric_std_tb4.vhd
+test_nuns_su.vhdl:    -- copied from numeric_std_tb1.vhd
+test_nuns_su.vhdl:    -- shift test, copied from numeric_std_tb2.vhd
+test_reduce_pack.vhdl:-- Test vector for the VHDL-200x-FT numeric_std package
+test_reduce_pack.vhdl:-- This is a test of the reduce functions in numeric_std
+test_reduce_pack.vhdl:use ieee.numeric_std.all;
+test_string.vhdl:--   Purpose   :  Test of "to_string" functions in numeric_std
+test_string.vhdl:use ieee.numeric_std.all;

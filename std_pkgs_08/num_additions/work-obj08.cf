@@ -1,0 +1,4 @@
+v 4
+file . "std_test.vhdl" "6a27ee868ccbdbca88478d3c6eab8b8caa2aa995" "20220810190740.256":
+  entity std_numadd at 10( 319) + 0 on 11;
+  architecture ops of std_numadd at 20( 516) + 0 on 12;

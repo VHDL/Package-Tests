@@ -1,0 +1,72 @@
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=W:[NullArray] std_test.vhdl:52: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:55: Null array passed to relational/conversion operator.
+=E:[NumericStd] std_test.vhdl:60: Matching operand contains don't-care.
+=W:[NullArray] std_test.vhdl:66: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:69: Null array passed to relational/conversion operator.
+=E:[NumericStd] std_test.vhdl:75: Matching operand contains don't-care.
+=W:[NullArray] std_test.vhdl:117: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:120: Null array passed to relational/conversion operator.
+=E:[NumericStd] std_test.vhdl:125: Matching operand contains don't-care.
+=W:[NullArray] std_test.vhdl:131: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:134: Null array passed to relational/conversion operator.
+=E:[NumericStd] std_test.vhdl:139: Matching operand contains don't-care.
+=W:[NullArray] std_test.vhdl:181: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:184: Null array passed to relational/conversion operator.
+=E:[NumericStd] std_test.vhdl:189: Matching operand contains don't-care.
+=W:[NullArray] std_test.vhdl:195: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:198: Null array passed to relational/conversion operator.
+=E:[NumericStd] std_test.vhdl:203: Matching operand contains don't-care.
+=W:[NullArray] std_test.vhdl:250: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:253: Null array passed to relational/conversion operator.
+=E:[NumericStd] std_test.vhdl:258: Matching operand contains don't-care.
+=W:[NullArray] std_test.vhdl:265: Null array passed to relational/conversion operator.
+=W:[NullArray] std_test.vhdl:268: Null array passed to relational/conversion operator.
+=E:[NumericStd] std_test.vhdl:274: Matching operand contains don't-care.
+=W:[NumericStd] std_test.vhdl:315: Null range argument to matching operator.
+=W:[NumericStd] std_test.vhdl:318: Null range argument to matching operator.
+=W:[NumericStd] std_test.vhdl:324: Null range argument to matching operator.
+=W:[NumericStd] std_test.vhdl:327: Null range argument to matching operator.
+=W:[NumericStd] std_test.vhdl:369: Null range argument to matching operator.
+=W:[NumericStd] std_test.vhdl:372: Null range argument to matching operator.
+=W:[NumericStd] std_test.vhdl:378: Null range argument to matching operator.
+=W:[NumericStd] std_test.vhdl:381: Null range argument to matching operator.
+=N:[VhdlReport] std_test.vhdl:422 from std_c49to84x @ 0: Test Passed ...   Done C.49 to C.84 ...
+=T:Event queue exhausted - terminating run.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2209 from numeric_std::"?>" @ 0: NUMERIC_STD."?>": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2209 from numeric_std::"?>" @ 0: NUMERIC_STD."?>": null detected, returning X
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2223 from numeric_std::"?>" @ 0: NUMERIC_STD."?>": '-' found in compare string
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2242 from numeric_std::"?>" @ 0: NUMERIC_STD."?>": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2242 from numeric_std::"?>" @ 0: NUMERIC_STD."?>": null detected, returning X
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2256 from numeric_std::"?>" @ 0: NUMERIC_STD."?>": '-' found in compare string
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2301 from numeric_std::"?<" @ 0: NUMERIC_STD."?<": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2301 from numeric_std::"?<" @ 0: NUMERIC_STD."?<": null detected, returning X
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2315 from numeric_std::"?<" @ 0: NUMERIC_STD."?<": '-' found in compare string
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2334 from numeric_std::"?<" @ 0: NUMERIC_STD."?<": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2334 from numeric_std::"?<" @ 0: NUMERIC_STD."?<": null detected, returning X
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2348 from numeric_std::"?<" @ 0: NUMERIC_STD."?<": '-' found in compare string
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2393 from numeric_std::"?<=" @ 0: NUMERIC_STD."?<=": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2393 from numeric_std::"?<=" @ 0: NUMERIC_STD."?<=": null detected, returning X
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2407 from numeric_std::"?<=" @ 0: NUMERIC_STD."?<=": '-' found in compare string
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2426 from numeric_std::"?<=" @ 0: NUMERIC_STD."?<=": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2426 from numeric_std::"?<=" @ 0: NUMERIC_STD."?<=": null detected, returning X
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2440 from numeric_std::"?<=" @ 0: NUMERIC_STD."?<=": '-' found in compare string
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2485 from numeric_std::"?>=" @ 0: NUMERIC_STD."?>=": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2485 from numeric_std::"?>=" @ 0: NUMERIC_STD."?>=": null detected, returning X
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2499 from numeric_std::"?>=" @ 0: NUMERIC_STD."?>=": '-' found in compare string
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2518 from numeric_std::"?>=" @ 0: NUMERIC_STD."?>=": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2518 from numeric_std::"?>=" @ 0: NUMERIC_STD."?>=": null detected, returning X
+=E:[VhdlReport] not_ieee/2008/numeric_std-body.vhdl:2532 from numeric_std::"?>=" @ 0: NUMERIC_STD."?>=": '-' found in compare string
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2586 from numeric_std::"?=" @ 0: NUMERIC_STD."?=": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2586 from numeric_std::"?=" @ 0: NUMERIC_STD."?=": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2620 from numeric_std::"?=" @ 0: NUMERIC_STD."?=": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2620 from numeric_std::"?=" @ 0: NUMERIC_STD."?=": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2680 from numeric_std::"?/=" @ 0: NUMERIC_STD."?/=": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2680 from numeric_std::"?/=" @ 0: NUMERIC_STD."?/=": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2714 from numeric_std::"?/=" @ 0: NUMERIC_STD."?/=": null detected, returning X
+=W:[VhdlAssert] not_ieee/2008/numeric_std-body.vhdl:2714 from numeric_std::"?/=" @ 0: NUMERIC_STD."?/=": null detected, returning X
+=N:[VhdlReport] test.vhdl:422 from c49to84x @ 0: Test Passed ...   Done C.49 to C.84 ...
+=T:Event queue exhausted - terminating run.

@@ -1,0 +1,16 @@
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlAssert] std_test.vhdl:1636 from std_nbitc43to48.edgetest @ 12: rising and falling edge test complete
+=N:[VhdlAssert] std_test.vhdl:924 from std_nbitc43to48.verify @ 44: boolean test completed
+=N:[VhdlAssert] std_test.vhdl:1577 from std_nbitc43to48.sizerestest @ 44: Size_RES testing completed
+=N:[VhdlAssert] std_test.vhdl:1523 from std_nbitc43to48.matchtest @ 44: match test completed
+=N:[VhdlAssert] std_test.vhdl:846 from std_nbitc43to48.testblock @ 44: numeric_bit test_minmax complete
+=T:Event queue exhausted - terminating run.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+=N:[VhdlAssert] test.vhdl:1636 from nbitc43to48.edgetest @ 12: rising and falling edge test complete
+=N:[VhdlAssert] test.vhdl:924 from nbitc43to48.verify @ 44: boolean test completed
+=N:[VhdlAssert] test.vhdl:1577 from nbitc43to48.sizerestest @ 44: Size_RES testing completed
+=N:[VhdlAssert] test.vhdl:1523 from nbitc43to48.matchtest @ 44: match test completed
+=N:[VhdlAssert] test.vhdl:846 from nbitc43to48.testblock @ 44: numeric_bit test_minmax complete
+=T:Event queue exhausted - terminating run.
