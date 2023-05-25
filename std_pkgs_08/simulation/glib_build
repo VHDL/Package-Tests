@@ -1,0 +1,3 @@
+#! /bin/bash
+
+ghdl -a --std=08 --work=not_ieee @./not_ieee08.flst

@@ -1,0 +1,7 @@
+#! /bin/bash
+
+ghdl -a --std=08 --work=not_ieee @../simulation/not_ieee08.flst
+#ghdl -a --std=08 @../simulation/not_ieee08.flst
+
+ghdl -a --std=08 -Pnot_ieee test.vhdl std_test.vhdl
+#ghdl -a --std=08 test.vhdl std_test.vhdl

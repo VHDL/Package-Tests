@@ -1,0 +1,24 @@
+#! /usr/bin/tclsh
+
+set dirs_lst [glob -type d ../* ]
+
+foreach d $dirs_lst {
+
+    set prev [pwd]
+    
+    if {$d != "../additions"} {continue}
+    cd $d
+    
+#    catch {exec ls} results options
+#    catch {exec ghdl -a --std=08 ./*.vhdl} results options
+    catch {exec ./gcmd} results options
+    set details [dict get $options]
+    puts $results
+    foreach d $details {
+        puts $d
+    }
+    #exec ls
+    #puts $d
+    cd $prev
+}
+
