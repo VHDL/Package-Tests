@@ -1,0 +1,78 @@
+test.vhdl:60:5:@0ms:(assertion note): start of tests
+test.vhdl:66:5:@0ms:(report note): A.15 A null return ''
+test.vhdl:81:5:@0ms:(report note): A.16  A null result ''
+test.vhdl:101:5:@0ms:(report note): A.21  A null result ''
+test.vhdl:117:5:@0ms:(report note): A.22 A null result ''
+test.vhdl:120:5:@0ms:(report note): A.22 A null result ''
+test.vhdl:124:5:@0ms:(report note): A.23  A null result ''
+test.vhdl:133:5:@0ms:(report note): A.24  A null result ''
+../not_ieee/2008/numeric_bit-body.vhdl:634:7:@0ms:(assertion warning): NUMERIC_BIT."/": Quotient Truncated
+test.vhdl:152:5:@0ms:(report note): A.25  A null result ''
+test.vhdl:169:5:@0ms:(report note): A.26  A null result ''
+../not_ieee/2008/numeric_bit-body.vhdl:668:7:@0ms:(assertion warning): NUMERIC_BIT."/": Quotient Truncated
+test.vhdl:176:5:@0ms:(report note): A.27  A null result ''
+test.vhdl:179:5:@0ms:(report note): A.27  A null result ''
+test.vhdl:194:5:@0ms:(report note): A.28  A null result ''
+test.vhdl:198:5:@0ms:(report note): A.29  A null result ''
+test.vhdl:206:5:@0ms:(report note): A.30  A null result ''
+test.vhdl:231:5:@0ms:(report note): A.31  A null result ''
+test.vhdl:245:5:@0ms:(report note): A.32  A null result ''
+test.vhdl:249:5:@0ms:(report note): A.33  A null result ''
+test.vhdl:264:5:@0ms:(report note): A.34  A null result ''
+test.vhdl:268:5:@0ms:(report note): A.35  A null result ''
+test.vhdl:272:5:@0ms:(report note): A.36  A null result ''
+test.vhdl:286:5:@0ms:(report note): A.37  A null result ''
+test.vhdl:300:5:@0ms:(report note): A.38  A null result ''
+test.vhdl:372:5:@0ms:(assertion note): S.1 tests done
+test.vhdl:444:5:@0ms:(assertion note): S.2 tests done
+test.vhdl:516:5:@0ms:(assertion note): S.3 tests done
+test.vhdl:588:5:@0ms:(assertion note): S.4 tests done
+test.vhdl:660:5:@0ms:(assertion note): S.5 tests done
+test.vhdl:732:5:@0ms:(assertion note): S.6 tests done
+test.vhdl:804:5:@0ms:(assertion note): S.7 tests done
+test.vhdl:876:5:@0ms:(assertion note): S.8 tests done
+../not_ieee/2008/numeric_bit-body.vhdl:1292:7:@0ms:(assertion warning): NUMERIC_BIT."=": null argument detected, returning FALSE
+../not_ieee/2008/numeric_bit-body.vhdl:1305:7:@0ms:(assertion warning): NUMERIC_BIT."=": null argument detected, returning FALSE
+../not_ieee/2008/numeric_bit-body.vhdl:1389:7:@0ms:(assertion warning): NUMERIC_BIT."/=": null argument detected, returning TRUE
+test.vhdl:924:5:@0ms:(assertion note): A.1 tests done
+test.vhdl:955:5:@0ms:(assertion note): A.2 tests done
+test.vhdl:957:5:@0ms:(assertion note): END OF test suite tb2
+std_test.vhdl:60:5:@0ms:(assertion note): start of tests
+std_test.vhdl:66:5:@0ms:(report note): A.15 A null return ''
+std_test.vhdl:81:5:@0ms:(report note): A.16  A null result ''
+std_test.vhdl:101:5:@0ms:(report note): A.21  A null result ''
+std_test.vhdl:117:5:@0ms:(report note): A.22 A null result ''
+std_test.vhdl:120:5:@0ms:(report note): A.22 A null result ''
+std_test.vhdl:124:5:@0ms:(report note): A.23  A null result ''
+std_test.vhdl:133:5:@0ms:(report note): A.24  A null result ''
+../../src/ieee2008/numeric_bit-body.vhdl:634:7:@0ms:(assertion warning): NUMERIC_BIT."/": Quotient Truncated
+std_test.vhdl:152:5:@0ms:(report note): A.25  A null result ''
+std_test.vhdl:169:5:@0ms:(report note): A.26  A null result ''
+../../src/ieee2008/numeric_bit-body.vhdl:668:7:@0ms:(assertion warning): NUMERIC_BIT."/": Quotient Truncated
+std_test.vhdl:176:5:@0ms:(report note): A.27  A null result ''
+std_test.vhdl:179:5:@0ms:(report note): A.27  A null result ''
+std_test.vhdl:194:5:@0ms:(report note): A.28  A null result ''
+std_test.vhdl:198:5:@0ms:(report note): A.29  A null result ''
+std_test.vhdl:206:5:@0ms:(report note): A.30  A null result ''
+std_test.vhdl:231:5:@0ms:(report note): A.31  A null result ''
+std_test.vhdl:245:5:@0ms:(report note): A.32  A null result ''
+std_test.vhdl:249:5:@0ms:(report note): A.33  A null result ''
+std_test.vhdl:264:5:@0ms:(report note): A.34  A null result ''
+std_test.vhdl:268:5:@0ms:(report note): A.35  A null result ''
+std_test.vhdl:272:5:@0ms:(report note): A.36  A null result ''
+std_test.vhdl:286:5:@0ms:(report note): A.37  A null result ''
+std_test.vhdl:300:5:@0ms:(report note): A.38  A null result ''
+std_test.vhdl:372:5:@0ms:(assertion note): S.1 tests done
+std_test.vhdl:444:5:@0ms:(assertion note): S.2 tests done
+std_test.vhdl:516:5:@0ms:(assertion note): S.3 tests done
+std_test.vhdl:588:5:@0ms:(assertion note): S.4 tests done
+std_test.vhdl:660:5:@0ms:(assertion note): S.5 tests done
+std_test.vhdl:732:5:@0ms:(assertion note): S.6 tests done
+std_test.vhdl:804:5:@0ms:(assertion note): S.7 tests done
+std_test.vhdl:876:5:@0ms:(assertion note): S.8 tests done
+../../src/ieee2008/numeric_bit-body.vhdl:1292:7:@0ms:(assertion warning): NUMERIC_BIT."=": null argument detected, returning FALSE
+../../src/ieee2008/numeric_bit-body.vhdl:1305:7:@0ms:(assertion warning): NUMERIC_BIT."=": null argument detected, returning FALSE
+../../src/ieee2008/numeric_bit-body.vhdl:1389:7:@0ms:(assertion warning): NUMERIC_BIT."/=": null argument detected, returning TRUE
+std_test.vhdl:924:5:@0ms:(assertion note): A.1 tests done
+std_test.vhdl:955:5:@0ms:(assertion note): A.2 tests done
+std_test.vhdl:957:5:@0ms:(assertion note): END OF test suite tb2

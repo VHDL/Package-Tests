@@ -10,15 +10,15 @@ test.vhdl:624:5:@0ms:(assertion note): S.8 tests done
 test.vhdl:690:5:@0ms:(assertion note): A.1 tests done
 test.vhdl:721:5:@0ms:(assertion note): A.2 tests done
 test.vhdl:723:5:@0ms:(assertion note): END OF test suite tb2
-test.vhdl:48:5:@0ms:(assertion note): start of tests
-test.vhdl:120:5:@0ms:(assertion note): S.1 tests done
-test.vhdl:192:5:@0ms:(assertion note): S.2 tests done
-test.vhdl:264:5:@0ms:(assertion note): S.3 tests done
-test.vhdl:336:5:@0ms:(assertion note): S.4 tests done
-test.vhdl:408:5:@0ms:(assertion note): S.5 tests done
-test.vhdl:480:5:@0ms:(assertion note): S.6 tests done
-test.vhdl:552:5:@0ms:(assertion note): S.7 tests done
-test.vhdl:624:5:@0ms:(assertion note): S.8 tests done
-test.vhdl:690:5:@0ms:(assertion note): A.1 tests done
-test.vhdl:721:5:@0ms:(assertion note): A.2 tests done
-test.vhdl:723:5:@0ms:(assertion note): END OF test suite tb2
+std_test.vhdl:48:5:@0ms:(assertion note): start of tests
+std_test.vhdl:120:5:@0ms:(assertion note): S.1 tests done
+std_test.vhdl:192:5:@0ms:(assertion note): S.2 tests done
+std_test.vhdl:264:5:@0ms:(assertion note): S.3 tests done
+std_test.vhdl:336:5:@0ms:(assertion note): S.4 tests done
+std_test.vhdl:408:5:@0ms:(assertion note): S.5 tests done
+std_test.vhdl:480:5:@0ms:(assertion note): S.6 tests done
+std_test.vhdl:552:5:@0ms:(assertion note): S.7 tests done
+std_test.vhdl:624:5:@0ms:(assertion note): S.8 tests done
+std_test.vhdl:690:5:@0ms:(assertion note): A.1 tests done
+std_test.vhdl:721:5:@0ms:(assertion note): A.2 tests done
+std_test.vhdl:723:5:@0ms:(assertion note): END OF test suite tb2
