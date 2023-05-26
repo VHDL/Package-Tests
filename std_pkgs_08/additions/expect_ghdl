@@ -1,0 +1,20 @@
+test.vhdl:39:5:@0ms:(assertion note): Simulator resolution is: 1 fs
+test.vhdl:84:5:@0ms:(assertion note): boolean test completed
+test.vhdl:250:5:@0ms:(assertion note): boolean vector test complete
+test.vhdl:702:5:@0ms:(assertion note): minmax test complete
+test.vhdl:933:5:@0ms:(assertion note): reduction operation test complete
+test.vhdl:988:5:@12ns:(assertion note): rising and falling edge test complete
+test.vhdl:1208:5:@12ns:(assertion note): BOOLEAN_VECTOR test complete
+test.vhdl:1352:5:@12ns:(assertion note): ?= test complete
+test.vhdl:59:5:@12ns:(report note): Updated package std.standard Testing complete
+simulation finished @12ns with status 0
+std_test.vhdl:39:5:@0ms:(assertion note): Simulator resolution is: 1 fs
+std_test.vhdl:84:5:@0ms:(assertion note): boolean test completed
+std_test.vhdl:250:5:@0ms:(assertion note): boolean vector test complete
+std_test.vhdl:702:5:@0ms:(assertion note): minmax test complete
+std_test.vhdl:933:5:@0ms:(assertion note): reduction operation test complete
+std_test.vhdl:988:5:@12ns:(assertion note): rising and falling edge test complete
+std_test.vhdl:1208:5:@12ns:(assertion note): BOOLEAN_VECTOR test complete
+std_test.vhdl:1352:5:@12ns:(assertion note): ?= test complete
+std_test.vhdl:59:5:@12ns:(report note): Updated package std.standard Testing complete
+simulation finished @12ns with status 0

@@ -1,7 +1,10 @@
 #! /bin/bash
+rm  work-obj08.cf
 
 ghdl -a --std=08 --work=not_ieee @../simulation/not_ieee08.flst
 #ghdl -a --std=08 @../simulation/not_ieee08.flst
 
-ghdl -a --std=08 -Pnot_ieee test.vhdl std_test.vhdl
-#ghdl -a --std=08 test.vhdl std_test.vhdl
+ghdl -a --std=08 -Pnot_ieee test.vhdl
+ghdl -r --std=08 additions  > actual_ghdl
+ghdl -a --std=08 std_test.vhdl
+ghdl -r --std=08 std_additions  >> actual_ghdl

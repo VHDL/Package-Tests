@@ -1,0 +1,8 @@
+#! /bin/bash
+
+ghdl -a --std=08 --work=not_ieee @../simulation/not_ieee08.flst
+ghdl -a --std=08 -Pnot_ieee -frelaxed test.vhdl std_test.vhdl
+ghdl -r --std=08 -Pnot_ieee -frelaxed nbita1  > ghdl_run.log
+
+ghdl -a --std=08 -frelaxed test.vhdl std_test.vhdl
+ghdl -r --std=08 -frelaxed nbita1  >> ghdl_run.log
