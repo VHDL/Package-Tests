@@ -27,57 +27,19 @@ them.
 
 
 
+May 29  status:
+numeric_bit tests will now run under the crude run script.  This shows
+there are issues to resolve related to compile of some tests.
+
+Once the issues are known/resolved, golden files for GHDL running the
+numeric_bit test set will be updated.
+
+The "simulation" directory is where all scripts will be kept, currently
+'grun'  a tclsh script will run the numeric_bit tests.  This has been
+done very crudely with no review of the output at this time.
+
+
+
 USAGE:
 
-This readme details what is needed to be done by the person wanting to
-get code coverage on the standard packages.
-
-This system is a dsim regression and coverage collection implemenation.
-A generic simulation script needs to be created.
-
-------------------------------------------------------------------------------
-Files:
-run_cov_lst.py  >>  run the tests listed in "cov_test_list.txt" and collect coverage
-linecov.py      >>  extract coverage from the passed db file  <<<  dsim db extraction
-merge_linecov.py >> merge the outputs from each simulation into single file
-                    File format is the same as output from linecov.py and input
-                    format read by ktt.   <<<  dsim specific script and tool.
-cov_test_lst.txt  >>  The list of test cases to run by default.
-
-merged_out_20220812.txt  >>  results as of the date in the file name.
-
-------------------------------------------------------------------------------
-Directories:
- dbs_dir/       >>   linecov.py is directed to put it's output here.  <<<  dsim specific
-
-------------------------------------------------------------------------------
-Tools:
- ktt     >>   coverage collection and display   <<<  dsim specific (not part of this repo)
-
-------------------------------------------------------------------------------
-To collect coverage, run the run_cov_list.py file.  This script, compiles
-not_ieee, compiles and runs each test, after each test is run the linecov.py
-script is run on the dsim database (sql) to extract the coverage to a text file.
-The outputs are put in the  dbs_dir/ .
-
-run_cov_lst.py
-  will accept  zero or a list of specific files to run.
-  - If no test directory(s) are stated, will run the the list of tests in cov_test_lst.txt
-      This mode will delete the current content of the dbs_dir/
-    
-  - if one or more tests directories are stated on the command line, they will be run.
-      This mode will NOT delete current dbs_dir and will overwrite the stated test results.
-
-
-Once all the tests have run, the results need to be merged.  Run the merge_linecov.py
-script to collect the data into one file, "merged_out.txt"  in the current directory.
-
-"merge_linecov.py >> merge_linecov.log"
-
-The merged_out.txt file can be viewed as is.  This enables the file, line and coveage
-count to be seen.  No extra file content is provided in this file.
-
-------------------------------------------------------------------------------
-For full viewing of the file and coverage:
-
-see tool specific features.
+useage instructions are  TBD
