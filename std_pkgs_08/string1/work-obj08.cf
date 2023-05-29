@@ -1,4 +1,0 @@
-v 4
-file . "std_test.vhdl" "7c327082d01ba10e2781f8fcff5ade6ef77450b1" "20220525143219.575":
-  entity std_string1 at 10( 289) + 0 on 11;
-  architecture ops of std_string1 at 20( 487) + 0 on 12;
