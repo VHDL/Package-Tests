@@ -10,10 +10,10 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity std_divmod1 is
+entity test is 
 end entity;
 
-architecture ops of std_divmod1 is
+architecture ops of test is 
 
   signal clk  : bit := '0';
   signal cnt  : integer := 0;
@@ -46,3 +46,4 @@ begin
   end process;
 
 end ops;
+

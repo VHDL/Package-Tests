@@ -14,12 +14,12 @@ use std.textio.all;
 use std.env.all;
 
 
-entity additions is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity;
 
-architecture ops of additions is
+architecture ops of test is 
   signal start_booleantest, booleantest_done       : BOOLEAN := false;  -- test new booleans
   signal start_booleanvectest, booleanvectest_done : BOOLEAN := false;  -- test new booleans
   signal start_minmaxtest, minmaxtest_done         : BOOLEAN := false;  -- minmax test
@@ -1354,3 +1354,4 @@ begin
     questionequ_done <= true;
   end process questionequ;
 end ops;
+

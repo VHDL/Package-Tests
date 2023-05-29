@@ -13,12 +13,12 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 
-entity std_s1to8b is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity;
 
-architecture ops of std_s1to8b is
+architecture ops of test is 
   signal s_unull : unsigned(0 downto 1);
   signal s_snull : signed(0 downto 1);
 
@@ -614,3 +614,4 @@ begin
   end process;
 
 end ops;
+

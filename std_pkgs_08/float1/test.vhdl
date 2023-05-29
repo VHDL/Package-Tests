@@ -13,14 +13,14 @@ use ieee.fixed_pkg.all;
 use ieee.float_pkg.all;
 use ieee.math_real.all;
 
-entity float1 is
+entity test is 
   
 end entity float1;
 
-architecture rtl of float1 is
+architecture rtl of test is 
   subtype fp16 is float (6 downto -9);    -- 16 bit
   
-begin  -- architecture rtl
+begin  -- test rtl 
 
   -- purpose: "0000" test the "+" operator
   cmd0reg: process (clk, rst_n) is
@@ -37,5 +37,6 @@ begin  -- architecture rtl
   end process cmd0reg;
 
 
-end architecture rtl;
+end architecture rtl; test 
+
 

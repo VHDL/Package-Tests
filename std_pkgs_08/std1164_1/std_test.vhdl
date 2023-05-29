@@ -11,7 +11,7 @@
 --
 --  Created for VHDL-200X-ft, David Bishop (dbishopx@gmail.com)
 -----------------------------------------------------------------------------
-entity std_std1164_1 is
+entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
 end entity std_std1164_1;
@@ -19,7 +19,7 @@ end entity std_std1164_1;
 library ieee;
 use ieee.std_logic_1164.all;
 use std.textio.all;
-architecture testbench of std_std1164_1 is  -- purpose: reports an error
+architecture testbench of test is  -- purpose: reports an error 
 
   procedure report_error (
     constant errmes   :    STRING;      -- error message
@@ -1640,5 +1640,6 @@ begin
       severity note;
     questionequ_done <= true;
   end process questionequ;
-end architecture testbench;
+end architecture testbench; test 
+
 

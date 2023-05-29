@@ -12,12 +12,12 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 --use work.test_pkg.all;
 
-entity std_a3to14b is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity;
 
-architecture ops of std_a3to14b is
+architecture ops of test is 
 
 begin
   process
@@ -829,3 +829,4 @@ begin
   end process;
 
 end ops;
+

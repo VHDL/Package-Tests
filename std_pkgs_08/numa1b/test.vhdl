@@ -11,10 +11,10 @@ library not_ieee;
 use not_ieee.std_logic_1164.all;
 use not_ieee.numeric_std.all;
 
-entity a1 is
+entity test is 
 end entity;
 
-architecture ops of a1 is
+architecture ops of test is 
 
   -- required by A.1, A.2 tests
   constant max_size_checked : integer := 200;
@@ -79,3 +79,4 @@ begin
   end process;
 
 end ops;
+

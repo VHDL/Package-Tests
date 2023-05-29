@@ -7,7 +7,7 @@
 --
 --  Modified for VHDL-200X-ft, David Bishop (dbishopx@gmail.com) 
 -- ---------------------------------------------------------------------------
-entity std_nbits9to20 is
+entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
 end entity std_nbits9to20;
@@ -17,7 +17,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_bit.all;
 
-architecture test of std_nbits9to20 is
+architecture test of test is 
   signal start_shifttest, shifttest_done : BOOLEAN := false;  -- start reading test
 begin
 
@@ -201,5 +201,6 @@ begin
     wait;
   end process shifttest;
 
-end architecture test;
+end architecture test; test 
+
 

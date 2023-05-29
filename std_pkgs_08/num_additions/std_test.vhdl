@@ -12,12 +12,12 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use std.textio.all;
 
-entity std_numadd is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity;
 
-architecture ops of std_numadd is
+architecture ops of test is 
   signal   start_readtest, readtest_done     : boolean   := false;  -- test read/write
   signal   start_stringtest, stringtest_done : boolean   := false;  -- test to_string
   signal   start_sreadtest, sreadtest_done   : boolean   := false;  -- sread test
@@ -1486,3 +1486,4 @@ begin
   end process teetest;
 
 end ops;
+

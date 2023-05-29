@@ -6,7 +6,7 @@
 --
 --  Created for VHDL-200X par, David Bishop (dbishopx@gmail.com)
 -------------------------------------------------------------------------------
-entity std_nbitl45to50 is
+entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
 end entity std_nbitl45to50;
@@ -15,7 +15,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_bit.all;
 
-architecture test of std_nbitl45to50 is
+architecture test of test is 
   signal start_nulltest, nulltest_done : BOOLEAN := false;  -- null test
 begin
 
@@ -110,5 +110,6 @@ begin
     wait;
   end process nulltest;
 
-end architecture test;
+end architecture test; test 
+
 

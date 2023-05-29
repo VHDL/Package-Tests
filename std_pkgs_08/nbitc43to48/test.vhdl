@@ -12,7 +12,7 @@
 --
 --  Created for VHDL-200X-ft, David Bishop (dbishopx@gmail.com) 
 -- -----------------------------------------------------------------------------
-entity nbitc43to48 is
+entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly 
 end entity nbitc43to48;
@@ -21,7 +21,7 @@ use std.textio.all;
 library not_ieee;
 use not_ieee.numeric_bit.all;
 
-architecture testbench of nbitc43to48 is
+architecture testbench of test is 
 
   procedure report_error (
     errmes   : in STRING;               -- error message
@@ -50,7 +50,7 @@ architecture testbench of nbitc43to48 is
   signal start_matchtest, matchtest_done     : BOOLEAN := false;
   signal start_edgetest, edgetest_done       : BOOLEAN := false;  -- edge test
   signal clk                                 : BIT;  -- clock signal (for edge test)
-begin  -- architecture testbench
+begin  -- test testbench 
 
   -- purpose: Test routines for the minmax packages 
   testblock : process is
@@ -1637,5 +1637,6 @@ begin  -- architecture testbench
       severity note;
     edgetest_done <= true;
   end process edgetest;
-end architecture testbench;
+end architecture testbench; test 
+
 

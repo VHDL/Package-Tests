@@ -13,10 +13,10 @@ use ieee.numeric_std.all;
 use std.textio.all;
 use std.env.all;
 
-entity std_std1164_11 is
+entity test is 
 end entity;
 
-architecture ops of std_std1164_11 is
+architecture ops of test is 
   type stdlogic_table is array(STD_ULOGIC, STD_ULOGIC) of STD_ULOGIC;
   constant qeq : stdlogic_table := (
     -- left ---------------------------------------------------------
@@ -69,3 +69,4 @@ begin
     finish;
   end process read_test;
 end ops;
+

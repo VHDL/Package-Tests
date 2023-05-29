@@ -11,10 +11,10 @@ use not_ieee.std_logic_1164.all;
 use not_ieee.numeric_std.all;
 use work.not_test_pkg.all;
 
-entity a11 is
+entity test is 
 end entity;
 
-architecture ops of a11 is
+architecture ops of test is 
 
   signal stim : signed(7 downto 0) := (others => '1');
   signal clk  : bit;
@@ -73,3 +73,4 @@ begin
     end if;
   end process;
 end ops;
+

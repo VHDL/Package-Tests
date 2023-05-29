@@ -11,7 +11,7 @@
 --  Created for VHDL-200X par, David Bishop (dbishopx@gmail.com)
 -----------------------------------------------------------------------------
 
-entity nbitusign2 is
+entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
 end entity nbitusign2;
@@ -21,7 +21,7 @@ library not_IEEE;
 use not_IEEE.STD_LOGIC_1164.all;
 use not_ieee.numeric_std_unsigned.all;
 
-architecture testbench of nbitusign2 is
+architecture testbench of test is 
 
   -- purpose: reports an error
   procedure report_error (
@@ -45,7 +45,7 @@ architecture testbench of nbitusign2 is
   signal qr                                      : STD_LOGIC_VECTOR (1 downto 0) := "00";
 
 
-begin  -- architecture testbench
+begin  -- test testbench 
   x <= '1' when (qr & s) + 1 = (t & u & v) - 1 else '0';
   y <= '1' when (qr & s) + 1 = 5               else '0';
   z <= '1' when (qr & s) + 1 = "101" else '0';
@@ -2119,5 +2119,6 @@ begin  -- architecture testbench
     wait;
   end process matchtest;
   
-end architecture testbench;
+end architecture testbench; test 
+
 

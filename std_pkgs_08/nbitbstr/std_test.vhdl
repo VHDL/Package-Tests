@@ -7,7 +7,7 @@
 --
 --  Created for VHDL-200X par, David Bishop (dbishopx@gmail.com)
 -----------------------------------------------------------------------------
-entity std_nbitbstr is
+entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
 end entity std_nbitbstr;
@@ -16,7 +16,7 @@ library ieee;
 use ieee.numeric_bit.all;
 use std.textio.all;
 
-architecture testbench of std_nbitbstr is
+architecture testbench of test is 
 
   -- purpose: reports an error
   procedure report_error (
@@ -34,7 +34,7 @@ architecture testbench of std_nbitbstr is
   end procedure report_error;
   signal start_readtest, readtest_done : BOOLEAN := false;  -- start reading test
   signal start_stest, stest_done       : BOOLEAN := false;  -- start reading test
-begin  -- architecture testbench
+begin  -- test testbench 
 
   -- purpose: Checks basic string functions
   -- type   : combinational
@@ -708,5 +708,6 @@ begin  -- architecture testbench
     readtest_done <= true;
     wait;
   end process read_test;
-end architecture testbench;
+end architecture testbench; test 
+
 

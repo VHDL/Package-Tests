@@ -13,7 +13,7 @@ use not_ieee.numeric_std.all;
 use not_ieee.fixed_pkg.all;
 use work.not_test_pkg.all;
 
-entity fix1 is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 begin
@@ -24,7 +24,7 @@ begin
   end process;
 end entity;
 
-architecture ops of fix1 is
+architecture ops of test is 
 
   procedure report_error (
     constant errmes : in string;  -- error message
@@ -42,7 +42,7 @@ architecture ops of fix1 is
   end procedure report_error;
 
   -- Device under test.  Note that all inputs and outputs are std_logic_vector.
-  --  This entity can be use both pre and post synthesis.
+ test --  This entity can be use both pre and post synthesis. 
   component fixed_synth is
     port (
       in1, in2   : in  std_logic_vector (15 downto 0);  -- inputs
@@ -448,3 +448,4 @@ begin
   end process checktest;
 
 end ops;
+

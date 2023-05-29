@@ -7,12 +7,12 @@ library not_IEEE;
 
 use not_IEEE.numeric_bit.all;
 
-entity nbita15to38 is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity nbita15to38;
 
-architecture t1 of nbita15to38 is 
+architecture t1 of test is  
   -- required by A.1, A.2 tests
   constant max_size_checked : integer := 200;
   constant temp1    : signed( max_size_checked-2 downto 0 ) :=
@@ -960,6 +960,7 @@ begin
 
     wait;
   end process;
-end architecture t1;
+end architecture t1; test 
+
 
 

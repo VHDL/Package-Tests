@@ -11,7 +11,7 @@
 --
 --  Created for VHDL-200X-ft, David Bishop (dbishopx@gmail.com)
 -----------------------------------------------------------------------------
-entity std1164_2 is
+entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
 end entity std1164_2;
@@ -20,7 +20,7 @@ library not_ieee;
 use not_ieee.std_logic_1164.all;
 use std.textio.all;
 use std.env.all;
-architecture testbench of std1164_2 is
+architecture testbench of test is 
 
   signal slv1 : std_logic_vector(7 downto 0);
   signal slv2 : std_logic_vector(7 downto 0);
@@ -313,5 +313,6 @@ begin
   end process;
   
   
-end architecture testbench;
+end architecture testbench; test 
+
 

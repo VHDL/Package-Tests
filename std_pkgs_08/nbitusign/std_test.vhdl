@@ -11,7 +11,7 @@
 --  Created for VHDL-200X par, David Bishop (dbishopx@gmail.com)
 -----------------------------------------------------------------------------
 
-entity std_nbitusign is
+entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
 
@@ -21,7 +21,7 @@ use std.textio.all;
 library IEEE;
 use ieee.numeric_bit_unsigned.all;
 
-architecture testbench of std_nbitusign is
+architecture testbench of test is 
 
   -- purpose: reports an error
   procedure report_error (
@@ -41,7 +41,7 @@ architecture testbench of std_nbitusign is
   signal start_misctest, misctest_done   : BOOLEAN := false;
   signal start_matchtest, matchtest_done : BOOLEAN := false;
 --  signal start_readwritetest, readwritetest_done : boolean := false;
-begin  -- architecture testbench
+begin  -- test testbench 
 
   -- purpose: Main test process
   -- type   : combinational
@@ -1888,5 +1888,6 @@ begin  -- architecture testbench
 --    wait;
 --  end process readwritetest;
 
-end architecture testbench;
+end architecture testbench; test 
+
 

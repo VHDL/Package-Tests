@@ -6,7 +6,7 @@
 --
 --  Created for VHDL-200X par, David Bishop (dbishopx@gmail.com)
 -------------------------------------------------------------------------------
-entity nbitl38to49 is
+entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly  
 end entity nbitl38to49;
@@ -15,7 +15,7 @@ library not_ieee;
 use not_ieee.numeric_bit.all;
 use std.textio.all;
 
-architecture testbench of nbitl38to49 is
+architecture testbench of test is 
 
   -- purpose: Error Reporting routine
   procedure report_error  (
@@ -28,7 +28,7 @@ architecture testbench of nbitl38to49 is
       severity error;
   end report_error;
 
-begin  -- architecture testbench
+begin  -- test testbench 
 
   -- purpose: main level test process
   -- type   : combinational
@@ -279,5 +279,6 @@ begin  -- architecture testbench
     wait;
   end process tester;
 
-end architecture testbench;
+end architecture testbench; test 
+
 

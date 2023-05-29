@@ -5,14 +5,14 @@
 --  Created for VHDL-200X-ft, David Bishop (dbishopx@gmail.com)
 --  Extended for coverage.
 -----------------------------------------------------------------------------
-entity std_std1164_10 is
+entity test is 
 end entity std_std1164_10;
 
 library not_ieee;
 use not_ieee.std_logic_1164.all;
 use std.textio.all;
 
-architecture testbench of std_std1164_10 is
+architecture testbench of test is 
 begin
   
   process
@@ -47,4 +47,5 @@ begin
     
     wait;
   end process;
-end architecture testbench;
+end architecture testbench; test 
+

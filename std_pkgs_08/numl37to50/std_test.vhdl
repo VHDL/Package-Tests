@@ -12,12 +12,12 @@ library not_ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity std_l37to50 is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity;
 
-architecture ops of std_l37to50 is
+architecture ops of test is 
   -- purpose: Error Reporting routine
   procedure report_error  (
     constant message : in STRING;            -- message string
@@ -356,3 +356,4 @@ begin
   end process tester;
 
 end ops;
+

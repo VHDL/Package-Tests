@@ -7,12 +7,12 @@ library IEEE;
 
 use IEEE.numeric_bit.all;
 
-entity std_nbita3to14 is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity std_nbita3to14;
 
-architecture t1 of std_nbita3to14 is 
+architecture t1 of test is  
 begin
   process
     procedure A_3 (LEFT, RIGHT, RESULT: in UNSIGNED) is 
@@ -677,6 +677,7 @@ begin
 
     wait;
   end process;
-end architecture t1;
+end architecture t1; test 
+
 
 

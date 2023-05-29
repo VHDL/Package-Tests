@@ -10,7 +10,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 --use not_ieee.subs_pkg.all;
 
-entity std_std2 is
+entity test is 
   -- local copy of resolution table
   TYPE mstdlogic_table IS ARRAY(std_logic, std_logic) OF std_logic;
   CONSTANT mresolution_table : mstdlogic_table := (
@@ -30,7 +30,7 @@ entity std_std2 is
 
 end entity std_std2;
 
-architecture rtl of std_std2 is
+architecture rtl of test is 
   signal r  : std_logic;
   signal p3 : std_logic;
   signal p4 : std_logic;
@@ -135,3 +135,4 @@ begin
     end if;
   end process;
 end rtl;
+

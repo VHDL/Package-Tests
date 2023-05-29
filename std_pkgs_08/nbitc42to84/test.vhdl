@@ -7,7 +7,7 @@
 --
 --  Modified for VHDL-200X-ft, David Bishop (dbishopx@gmail.com) 
 -- ---------------------------------------------------------------------------
-entity nbitc42to84 is
+entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
 end entity;
@@ -17,7 +17,7 @@ use ieee.std_logic_1164.all;
 library not_ieee;
 use not_ieee.numeric_bit.all;
 
-architecture testbench of nbitc42to84 is
+architecture testbench of test is 
   SIGNAL start_logicaltest, logicaltest_done : BOOLEAN := false;
   signal start_qequtest, qequtest_done : BOOLEAN := false;
 begin
@@ -900,5 +900,6 @@ begin
     wait;
   end process verify;
 
-end architecture testbench;
+end architecture testbench; test 
+
 

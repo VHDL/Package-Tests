@@ -12,12 +12,12 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use std.textio.all;
 
-entity std_string2 is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity;
 
-architecture ops of std_string2 is
+architecture ops of test is 
 
   procedure report_error (
     constant errmes   :    STRING;      -- error message
@@ -1091,3 +1091,4 @@ begin
   end process questionequ;
 
 end ops;
+

@@ -12,12 +12,12 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use work.test_pkg.all;
 
-entity std_c49to84 is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity;
 
-architecture ops of std_c49to84 is
+architecture ops of test is 
 
   SIGNAL start_logicaltest, logicaltest_done : BOOLEAN := false;
   signal start_qequtest, qequtest_done : BOOLEAN := false;
@@ -904,3 +904,4 @@ begin
   end process verify;
 
 end ops;
+

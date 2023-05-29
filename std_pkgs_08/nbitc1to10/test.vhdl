@@ -7,12 +7,12 @@ library not_IEEE;
 
 use not_IEEE.numeric_bit.all;
 
-entity nbitc1to10 is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity nbitc1to10;
 
-architecture t1 of nbitc1to10 is 
+architecture t1 of test is  
   -- for c1_ Bhasker tests
   signal ANULL: UNSIGNED (0 downto 1);
   signal BNULL: UNSIGNED (0 downto 1);
@@ -725,6 +725,7 @@ begin
 
     wait;
   end process;
-end architecture t1;
+end architecture t1; test 
+
 
 

@@ -11,12 +11,12 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity std_c37to48 is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity;
 
-architecture ops of std_c37to48 is
+architecture ops of test is 
   procedure report_error (
     errmes   : in STRING;               -- error message
     actual   : in UNSIGNED;             -- data from algorithm
@@ -2476,3 +2476,4 @@ begin
   end process sizerestest;
 
 end ops;
+

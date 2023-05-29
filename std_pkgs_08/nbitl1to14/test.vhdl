@@ -9,12 +9,12 @@ library not_IEEE;
 use IEEE.std_logic_1164.all;
 use not_IEEE.numeric_bit.all;
 
-entity nbitl1to14 is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity nbitl1to14;
 
-architecture t1 of nbitl1to14 is 
+architecture t1 of test is  
 begin
   process
 
@@ -448,6 +448,7 @@ begin
 
     wait;
   end process;
-end architecture t1;
+end architecture t1; test 
+
 
 

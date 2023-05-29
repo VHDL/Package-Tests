@@ -17,10 +17,10 @@ library not_IEEE;
 
 use not_IEEE.numeric_bit.all;
 
-entity nbitc49to72 is
+entity test is 
 end entity nbitc49to72;
 
-architecture t1 of nbitc49to72 is 
+architecture t1 of test is  
   -- for c1_ Bhasker tests
   signal ANULL: UNSIGNED (0 downto 1);
   signal BNULL: UNSIGNED (0 downto 1);
@@ -208,6 +208,7 @@ begin
     
     wait;
   end process;
-end architecture t1;
+end architecture t1; test 
+
 
 

@@ -10,12 +10,12 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity std_compare is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity;
 
-architecture ops of std_compare is
+architecture ops of test is 
   signal ANULL: UNSIGNED (0 downto 1);
   signal BNULL: UNSIGNED (0 downto 1);
   signal SANULL: SIGNED (0 downto 1);
@@ -762,3 +762,4 @@ begin
   end process;
 
 end ops;
+

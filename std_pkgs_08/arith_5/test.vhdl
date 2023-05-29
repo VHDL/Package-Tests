@@ -11,10 +11,10 @@ library not_ieee;
 use not_ieee.std_logic_1164.all;
 use not_ieee.std_logic_arith.all;
 
-entity arith_5 is
+entity test is 
 end entity;
 
-architecture ops of arith_5 is
+architecture ops of test is 
 
 begin
   process
@@ -320,3 +320,4 @@ begin
   end process;
 
 end ops;
+

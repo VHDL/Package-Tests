@@ -12,12 +12,12 @@ library not_ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity std_l1to14 is
+entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
 end entity;
 
-architecture ops of std_l1to14 is
+architecture ops of test is 
 
 begin
 
@@ -456,3 +456,4 @@ begin
 
 
 end ops;
+

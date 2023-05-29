@@ -11,10 +11,10 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 
-entity std_arith_2 is
+entity test is 
 end entity;
 
-architecture ops of std_arith_2 is
+architecture ops of test is 
 
 begin
   process
@@ -396,3 +396,4 @@ begin
   end process;
 
 end ops;
+
