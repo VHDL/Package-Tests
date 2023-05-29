@@ -708,6 +708,6 @@ begin  -- test testbench
     readtest_done <= true;
     wait;
   end process read_test;
-end architecture testbench; test 
+end architecture;
 
 

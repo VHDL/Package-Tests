@@ -10,7 +10,7 @@
 entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
-end entity nbits9to20;
+end entity;
 
 
 library not_ieee;
@@ -201,6 +201,6 @@ begin
     wait;
   end process shifttest;
 
-end architecture test; test 
+end architecture;
 
 

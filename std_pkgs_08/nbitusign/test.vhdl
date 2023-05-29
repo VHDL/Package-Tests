@@ -15,7 +15,7 @@ entity test is
   generic (
     quiet : BOOLEAN := false);          -- run quietly
 
-end entity nbitusign;
+end entity;
 
 use std.textio.all;
 library not_IEEE;
@@ -1888,6 +1888,6 @@ begin  -- test testbench
 --    wait;
 --  end process readwritetest;
 
-end architecture testbench; test 
+end architecture;
 
 

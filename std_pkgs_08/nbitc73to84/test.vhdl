@@ -18,7 +18,7 @@ library not_IEEE;
 use not_IEEE.numeric_bit.all;
 
 entity test is 
-end entity nbitc73to84;
+end entity;
 
 architecture t1 of test is  
   -- for c1_ Bhasker tests
@@ -113,7 +113,7 @@ begin
     
     wait;
   end process;
-end architecture t1; test 
+end architecture;
 
 
 

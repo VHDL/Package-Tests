@@ -92,7 +92,7 @@ begin
     
     wait;
   end process;
-end architecture t1; test 
+end architecture; 
 
 
 

@@ -1,6 +1,8 @@
 ../not_ieee/2008/std_logic_1164.vhdl
 ../not_ieee/2008/std_logic_1164-body.vhdl
 ../not_ieee/2008/std_logic_textio.vhdl
+../not_ieee/2008/std_logic_arith.vhdl
+../not_ieee/2008/std_logic_arith-body.vhdl
 ../not_ieee/2008/numeric_std.vhdl
 ../not_ieee/2008/numeric_std-body.vhdl
 ../not_ieee/2008/ieee_std_context.vhdl

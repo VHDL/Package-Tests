@@ -900,6 +900,6 @@ begin
     wait;
   end process verify;
 
-end architecture testbench; test 
+end architecture; 
 
 

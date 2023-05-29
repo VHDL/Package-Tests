@@ -9,7 +9,7 @@
 entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
-end entity nbitl45to50;
+end entity;
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -113,6 +113,6 @@ begin
     wait;
   end process nulltest;
 
-end architecture test; test 
+end architecture;
 
 

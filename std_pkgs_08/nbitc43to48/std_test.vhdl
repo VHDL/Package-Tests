@@ -15,7 +15,7 @@
 entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly 
-end entity std_nbitc43to48;
+end entity;
 
 use std.textio.all;
 library ieee;
@@ -1637,6 +1637,6 @@ begin  -- test testbench
       severity note;
     edgetest_done <= true;
   end process edgetest;
-end architecture testbench; test 
+end architecture; 
 
 

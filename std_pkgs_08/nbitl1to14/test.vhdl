@@ -12,7 +12,7 @@ use not_IEEE.numeric_bit.all;
 entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
-end entity nbitl1to14;
+end entity;
 
 architecture t1 of test is  
 begin
@@ -448,7 +448,7 @@ begin
 
     wait;
   end process;
-end architecture t1; test 
+end architecture; 
 
 
 

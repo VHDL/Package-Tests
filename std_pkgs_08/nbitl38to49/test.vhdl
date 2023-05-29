@@ -9,7 +9,7 @@
 entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly  
-end entity nbitl38to49;
+end entity;
 
 library not_ieee;
 use not_ieee.numeric_bit.all;
@@ -279,6 +279,6 @@ begin  -- test testbench
     wait;
   end process tester;
 
-end architecture testbench; test 
+end architecture;
 
 

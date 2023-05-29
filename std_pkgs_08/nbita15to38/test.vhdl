@@ -10,7 +10,7 @@ use not_IEEE.numeric_bit.all;
 entity test is 
   generic (
     quiet : boolean := false);  -- make the simulation quiet
-end entity nbita15to38;
+end entity;
 
 architecture t1 of test is  
   -- required by A.1, A.2 tests
@@ -960,7 +960,7 @@ begin
 
     wait;
   end process;
-end architecture t1; test 
+end architecture;
 
 
 

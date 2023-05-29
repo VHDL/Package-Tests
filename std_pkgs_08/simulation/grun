@@ -1,24 +1,58 @@
 #! /usr/bin/tclsh
 
-set dirs_lst [glob -type d ../* ]
+##  get list of test directories
+set dirs_lst [glob -type d ../nbit* ]
 
+## output the list found
+set tlh [open "test_list.txt" "w"]
 foreach d $dirs_lst {
+    puts $tlh $d
+}
+close $tlh
 
-    set prev [pwd]
-    
-    if {$d != "../additions"} {continue}
-    cd $d
-    
-#    catch {exec ls} results options
-#    catch {exec ghdl -a --std=08 ./*.vhdl} results options
-    catch {exec ./gcmd} results options
-    set details [dict get $options]
-    puts $results
-    foreach d $details {
-        puts $d
-    }
-    #exec ls
-    #puts $d
-    cd $prev
+##  deal with log files directory
+set is_logs [file exists "logs/"]
+if {$is_logs == 1} {
+    exec rm -f logs/*
+} else {
+    file mkdir "logs"
 }
 
+##  here is where I am running from
+set here [pwd]
+set nflst $here/not_ieee08.flst
+set log_dir "$here/logs"
+
+foreach d $dirs_lst {
+    
+    puts $d
+    #  get the name with out leading ../
+    set name [lindex [split $d "/"] end]
+    # create log file name for  compile
+    set fn "$log_dir/$name.log"
+    set lfh [open "$fn" "w"]
+    
+    # to the test dir
+    cd $d
+    
+    ##  crude runner
+    exec rm -f work-obj08.cf
+    puts "analize not_ieee ..."
+    catch {exec ghdl -a --std=08 --work=not_ieee @$nflst}  results options
+    puts "analize test ..."
+    catch {exec ghdl -a --std=08 -frelaxed -Pnot_ieee test.vhdl} results options
+    puts $lfh $results
+    puts "run test ..."
+    catch {exec ghdl -r --std=08 -frelaxed test  > actual_ghdl} results options
+    exec rm -f work-obj08.cf
+    puts "analize std_test ..."
+    catch {exec ghdl -a --std=08 -frelaxed std_test.vhdl} results options
+    puts $lfh $results
+    puts "run std_test ..."
+    catch {exec ghdl -r --std=08 -frelaxed test  >> actual_ghdl} results options
+    # close log file
+    close $lfh
+    # go home
+    cd $here
+    
+}
