@@ -39,7 +39,21 @@ The "simulation" directory is where all scripts will be kept, currently
 done very crudely with no review of the output at this time.
 
 
+May 31 status:
+An initial working regression for GHDL is implemented.  There is one issue
+that must be resuloved in one test.  Expect files for the output of GHDL
+has been added which are a copy of an eye ball inspected actual output.
+Now looking at the std1164 group.
+
+
 
 USAGE:
 
-useage instructions are  TBD
+the repo is in place as you are reading this README
+
+navigate to the 'simulation' directory and run the "grun" script
+grun is a TCL script and can be run in several ways.
+Unix:  chmod + grun    then  ./grun  while being in the simulation dir
+Windows:  power shell,  run as you would under Unix,  TCL must be
+          installed and accessable.
+(windows untested as of yet)
