@@ -1,0 +1,4 @@
+test.vhdl:199:5:@144ns:(assertion note): Arithmetic shift test completed
+test.vhdl:69:5:@144ns:(assertion note): 1164 shift testing completed.
+std_test.vhdl:199:5:@144ns:(assertion note): Arithmetic shift test completed
+std_test.vhdl:69:5:@144ns:(assertion note): 1164 shift testing completed.

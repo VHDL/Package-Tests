@@ -18,7 +18,7 @@ library not_IEEE;
 use not_IEEE.numeric_bit.all;
 
 entity test is 
-end test nbitmisc; 
+end entity; 
 
 architecture t1 of test is  
   -- for c1_ Bhasker tests

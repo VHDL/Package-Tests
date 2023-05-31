@@ -1,0 +1,56 @@
+../not_ieee/2008/numeric_bit-body.vhdl:956:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+../not_ieee/2008/numeric_bit-body.vhdl:956:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+test.vhdl:75:5:@0ms:(assertion note): C.1 tests done
+../not_ieee/2008/numeric_bit-body.vhdl:969:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+../not_ieee/2008/numeric_bit-body.vhdl:969:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+test.vhdl:139:5:@0ms:(assertion note): C.2 tests done
+../not_ieee/2008/numeric_bit-body.vhdl:981:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+test.vhdl:189:5:@0ms:(assertion note): C.3 tests done
+../not_ieee/2008/numeric_bit-body.vhdl:995:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+test.vhdl:257:5:@0ms:(assertion note): C.4 tests done
+../not_ieee/2008/numeric_bit-body.vhdl:1009:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+test.vhdl:307:5:@0ms:(assertion note): C.5 tests done
+../not_ieee/2008/numeric_bit-body.vhdl:1023:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+test.vhdl:365:5:@0ms:(assertion note): C.6 tests done
+../not_ieee/2008/numeric_bit-body.vhdl:1040:7:@0ms:(assertion warning): NUMERIC_BIT."<": null argument detected, returning FALSE
+../not_ieee/2008/numeric_bit-body.vhdl:1040:7:@0ms:(assertion warning): NUMERIC_BIT."<": null argument detected, returning FALSE
+test.vhdl:415:5:@0ms:(assertion note): C.7 tests done
+../not_ieee/2008/numeric_bit-body.vhdl:1053:7:@0ms:(assertion warning): NUMERIC_BIT."<": null argument detected, returning FALSE
+test.vhdl:483:5:@0ms:(assertion note): C.8 tests done
+../not_ieee/2008/numeric_bit-body.vhdl:1093:7:@0ms:(assertion warning): NUMERIC_BIT."<": null argument detected, returning FALSE
+test.vhdl:532:5:@0ms:(assertion note): C.11 tests done
+test.vhdl:596:5:@0ms:(assertion note): C.12 tests done
+../not_ieee/2008/numeric_bit-body.vhdl:1065:7:@0ms:(assertion warning): NUMERIC_BIT."<": null argument detected, returning FALSE
+test.vhdl:643:5:@0ms:(assertion note): C.9 tests done
+../not_ieee/2008/numeric_bit-body.vhdl:1079:7:@0ms:(assertion warning): NUMERIC_BIT."<": null argument detected, returning FALSE
+test.vhdl:705:5:@0ms:(assertion note): C.10 tests done
+test.vhdl:720:5:@0ms:(assertion note): c.28, c.30 tests done
+test.vhdl:722:5:@0ms:(assertion note): END OF test suite tb3
+../../src/ieee2008/numeric_bit-body.vhdl:956:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+../../src/ieee2008/numeric_bit-body.vhdl:956:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+std_test.vhdl:75:5:@0ms:(assertion note): C.1 tests done
+../../src/ieee2008/numeric_bit-body.vhdl:969:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+../../src/ieee2008/numeric_bit-body.vhdl:969:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+std_test.vhdl:139:5:@0ms:(assertion note): C.2 tests done
+../../src/ieee2008/numeric_bit-body.vhdl:981:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+std_test.vhdl:189:5:@0ms:(assertion note): C.3 tests done
+../../src/ieee2008/numeric_bit-body.vhdl:995:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+std_test.vhdl:256:5:@0ms:(assertion note): C.4 tests done
+../../src/ieee2008/numeric_bit-body.vhdl:1009:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+std_test.vhdl:306:5:@0ms:(assertion note): C.5 tests done
+../../src/ieee2008/numeric_bit-body.vhdl:1023:7:@0ms:(assertion warning): NUMERIC_BIT.">": null argument detected, returning FALSE
+std_test.vhdl:364:5:@0ms:(assertion note): C.6 tests done
+../../src/ieee2008/numeric_bit-body.vhdl:1040:7:@0ms:(assertion warning): NUMERIC_BIT."<": null argument detected, returning FALSE
+../../src/ieee2008/numeric_bit-body.vhdl:1040:7:@0ms:(assertion warning): NUMERIC_BIT."<": null argument detected, returning FALSE
+std_test.vhdl:414:5:@0ms:(assertion note): C.7 tests done
+../../src/ieee2008/numeric_bit-body.vhdl:1053:7:@0ms:(assertion warning): NUMERIC_BIT."<": null argument detected, returning FALSE
+std_test.vhdl:482:5:@0ms:(assertion note): C.8 tests done
+../../src/ieee2008/numeric_bit-body.vhdl:1093:7:@0ms:(assertion warning): NUMERIC_BIT."<": null argument detected, returning FALSE
+std_test.vhdl:531:5:@0ms:(assertion note): C.11 tests done
+std_test.vhdl:595:5:@0ms:(assertion note): C.12 tests done
+../../src/ieee2008/numeric_bit-body.vhdl:1065:7:@0ms:(assertion warning): NUMERIC_BIT."<": null argument detected, returning FALSE
+std_test.vhdl:642:5:@0ms:(assertion note): C.9 tests done
+../../src/ieee2008/numeric_bit-body.vhdl:1079:7:@0ms:(assertion warning): NUMERIC_BIT."<": null argument detected, returning FALSE
+std_test.vhdl:704:5:@0ms:(assertion note): C.10 tests done
+std_test.vhdl:719:5:@0ms:(assertion note): c.28, c.30 tests done
+std_test.vhdl:721:5:@0ms:(assertion note): END OF test suite tb3

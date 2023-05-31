@@ -37,20 +37,29 @@ foreach d $dirs_lst {
     
     ##  crude runner
     exec rm -f work-obj08.cf
-    puts "analize not_ieee ..."
+    #puts "analize not_ieee ..."
     catch {exec ghdl -a --std=08 --work=not_ieee @$nflst}  results options
-    puts "analize test ..."
+    #puts "analize test ..."
     catch {exec ghdl -a --std=08 -frelaxed -Pnot_ieee test.vhdl} results options
     puts $lfh $results
-    puts "run test ..."
+    #puts "run test ..."
     catch {exec ghdl -r --std=08 -frelaxed test  > actual_ghdl} results options
     exec rm -f work-obj08.cf
-    puts "analize std_test ..."
+    #puts "analize std_test ..."
     catch {exec ghdl -a --std=08 -frelaxed std_test.vhdl} results options
     puts $lfh $results
-    puts "run std_test ..."
+    #puts "run std_test ..."
     catch {exec ghdl -r --std=08 -frelaxed test  >> actual_ghdl} results options
     # close log file
+    
+    catch {exec diff expect_ghdl actual_ghdl} results options
+    if {$results != ""} {
+        puts "Test results:  '$results'"
+        puts $lfh $results
+    } else {
+        puts "$name Test Passed"
+        puts $lfh $results
+    }
     close $lfh
     # go home
     cd $here

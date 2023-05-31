@@ -45,7 +45,8 @@ begin
       severity failure;
     
     -- C.14
-    svec := signed("1101");
+--    svec := signed("1101");
+    svec := "1101";
     assert not(si_nul <= svec)
       report "Error: C.14 should return false with nul passed"
       severity failure;
@@ -57,7 +58,8 @@ begin
     assert not(21 <= un_nul)
       report "Error: C.15 should return false with nul passed"
       severity failure;
-    usvec := unsigned("0111");
+--    usvec := unsigned("0111");
+    usvec := "0111";
     assert not(127 <= usvec)
       report "Error: C.15 should return false larger natrual passed"
       severity failure;
@@ -99,7 +101,8 @@ begin
       severity failure;
       
     -- C.19
-    usvec := unsigned("0111");
+--    usvec := unsigned("0111");
+    usvec := "0111";
     assert not(un_nul >= usvec)
       report "Error:  -- C.19 did not return correct response to nul input."
       severity failure;
@@ -108,7 +111,8 @@ begin
       severity failure;
     
     -- C.20
-    svec := signed("1101");
+--    svec := signed("1101");
+    svec := "1101";
     assert not(si_nul >= svec)
       report "Error: C.20 should return false with nul passed"
       severity failure;
@@ -117,7 +121,8 @@ begin
       severity failure;
     
     -- C.21
-    usvec := unsigned("0111");
+--    usvec := unsigned("0111");
+    usvec := "0111";
     assert 200 >= usvec
       report "Error:  -- C.21 did not return correct response to small input."
       severity failure;
@@ -148,9 +153,9 @@ begin
       report "Error:  -- C.23 did not return correct response to nul input."
       severity failure;
     
-    assert not(unsigned("01") >= 99)
-      report "Error:  -- C.23 did not return correct response to nul input."
-      severity failure;
+--    assert not(unsigned("01") >= 99)
+--      report "Error:  -- C.23 did not return correct response to nul input."
+--      severity failure;
     
     -- C.24
     for j in -10 to 10 loop

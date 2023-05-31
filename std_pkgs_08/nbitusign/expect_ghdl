@@ -1,0 +1,52 @@
+test.vhdl:668:7:@0ms:(report note): Expect two null bit_vector errors here
+../not_ieee/2008/numeric_bit-body.vhdl:1124:7:@0ms:(assertion warning): NUMERIC_BIT."<=": null argument detected, returning FALSE
+../not_ieee/2008/numeric_bit-body.vhdl:1124:7:@0ms:(assertion warning): NUMERIC_BIT."<=": null argument detected, returning FALSE
+test.vhdl:719:7:@0ms:(report note): Expect a null bit_vector error here
+../not_ieee/2008/numeric_bit-body.vhdl:1177:7:@0ms:(assertion warning): NUMERIC_BIT."<=": null argument detected, returning FALSE
+test.vhdl:119:7:@0ms:(report note): Expect a null string error here
+../not_ieee/2008/numeric_bit-body.vhdl:2176:7:@0ms:(assertion warning): NUMERIC_BIT.TO_INTEGER: null detected, returning 0
+test.vhdl:396:5:@0ms:(assertion note): Translation test done
+test.vhdl:875:7:@0ms:(report note): Expect a vector truncated error here
+../not_ieee/2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+test.vhdl:881:7:@0ms:(report note): Expect two vector truncated errors here
+../not_ieee/2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+../not_ieee/2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+test.vhdl:914:7:@0ms:(report note): Expect a vector truncated error here 3
+../not_ieee/2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+test.vhdl:985:7:@0ms:(report note): Expect a vector truncated error here
+../not_ieee/2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+test.vhdl:991:7:@0ms:(report note): Expect two vector truncated errors here
+../not_ieee/2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+../not_ieee/2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+test.vhdl:1021:7:@0ms:(report note): Expect a vector truncated error here
+../not_ieee/2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+test.vhdl:1027:7:@0ms:(report note): Expect a vector truncated error here
+../not_ieee/2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+test.vhdl:1696:5:@0ms:(assertion note): match test completed
+test.vhdl:66:5:@0ms:(report note): Numeric_Bit_Unsigned Testing complete
+std_test.vhdl:668:7:@0ms:(report note): Expect two null bit_vector errors here
+../../src/ieee2008/numeric_bit-body.vhdl:1124:7:@0ms:(assertion warning): NUMERIC_BIT."<=": null argument detected, returning FALSE
+../../src/ieee2008/numeric_bit-body.vhdl:1124:7:@0ms:(assertion warning): NUMERIC_BIT."<=": null argument detected, returning FALSE
+std_test.vhdl:719:7:@0ms:(report note): Expect a null bit_vector error here
+../../src/ieee2008/numeric_bit-body.vhdl:1177:7:@0ms:(assertion warning): NUMERIC_BIT."<=": null argument detected, returning FALSE
+std_test.vhdl:119:7:@0ms:(report note): Expect a null string error here
+../../src/ieee2008/numeric_bit-body.vhdl:2176:7:@0ms:(assertion warning): NUMERIC_BIT.TO_INTEGER: null detected, returning 0
+std_test.vhdl:396:5:@0ms:(assertion note): Translation test done
+std_test.vhdl:875:7:@0ms:(report note): Expect a vector truncated error here
+../../src/ieee2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+std_test.vhdl:881:7:@0ms:(report note): Expect two vector truncated errors here
+../../src/ieee2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+../../src/ieee2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+std_test.vhdl:914:7:@0ms:(report note): Expect a vector truncated error here 3
+../../src/ieee2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+std_test.vhdl:985:7:@0ms:(report note): Expect a vector truncated error here
+../../src/ieee2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+std_test.vhdl:991:7:@0ms:(report note): Expect two vector truncated errors here
+../../src/ieee2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+../../src/ieee2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+std_test.vhdl:1021:7:@0ms:(report note): Expect a vector truncated error here
+../../src/ieee2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+std_test.vhdl:1027:7:@0ms:(report note): Expect a vector truncated error here
+../../src/ieee2008/numeric_bit-body.vhdl:2221:7:@0ms:(assertion warning): NUMERIC_BIT.TO_UNSIGNED: vector truncated
+std_test.vhdl:1696:5:@0ms:(assertion note): match test completed
+std_test.vhdl:66:5:@0ms:(report note): Numeric_Bit_Unsigned Testing complete

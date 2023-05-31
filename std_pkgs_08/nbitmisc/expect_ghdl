@@ -1,0 +1,4 @@
+../not_ieee/2008/numeric_bit-body.vhdl:2194:7:@0ms:(assertion warning): NUMERIC_BIT.TO_INTEGER: null detected, returning 0
+test.vhdl:74:7:@0ms:(report note): output Null return: ''
+../../src/ieee2008/numeric_bit-body.vhdl:2194:7:@0ms:(assertion warning): NUMERIC_BIT.TO_INTEGER: null detected, returning 0
+std_test.vhdl:64:7:@0ms:(report note): output Null return: ''

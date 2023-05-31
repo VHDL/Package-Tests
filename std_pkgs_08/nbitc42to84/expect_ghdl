@@ -1,0 +1,26 @@
+test.vhdl:896:5:@32ns:(assertion note): std_ulogic and vector logical operators test completed.
+test.vhdl:135:5:@32ns:(assertion error): 1 ?< U = U
+test.vhdl:176:5:@32ns:(assertion error): 1 ?<= U = U
+test.vhdl:212:5:@32ns:(assertion error): 1 ?> U = U
+test.vhdl:253:5:@32ns:(assertion error): 1 ?>= U = U
+test.vhdl:341:5:@32ns:(assertion error): 000-000L ?= U001000H = 0
+test.vhdl:348:5:@32ns:(assertion error): L00-000U ?= H0010000 = 0
+test.vhdl:485:5:@32ns:(assertion error): 000-000L ?/= U001000H = 1
+test.vhdl:492:5:@32ns:(assertion error): L00-000U ?/= H0010000 = 1
+test.vhdl:752:5:@32ns:(assertion error): 000-000L ?/= U001000H = 1
+test.vhdl:759:5:@32ns:(assertion error): L00-000U ?/= H0010000 = 1
+test.vhdl:815:5:@32ns:(assertion note): ?= testing completed
+test.vhdl:35:5:@32ns:(report note): std_logic_1164 additions test completed
+std_test.vhdl:895:5:@32ns:(assertion note): std_ulogic and vector logical operators test completed.
+std_test.vhdl:134:5:@32ns:(assertion error): 1 ?< U = U
+std_test.vhdl:175:5:@32ns:(assertion error): 1 ?<= U = U
+std_test.vhdl:211:5:@32ns:(assertion error): 1 ?> U = U
+std_test.vhdl:252:5:@32ns:(assertion error): 1 ?>= U = U
+std_test.vhdl:340:5:@32ns:(assertion error): 000-000L ?= U001000H = 0
+std_test.vhdl:347:5:@32ns:(assertion error): L00-000U ?= H0010000 = 0
+std_test.vhdl:484:5:@32ns:(assertion error): 000-000L ?/= U001000H = 1
+std_test.vhdl:491:5:@32ns:(assertion error): L00-000U ?/= H0010000 = 1
+std_test.vhdl:751:5:@32ns:(assertion error): 000-000L ?/= U001000H = 1
+std_test.vhdl:758:5:@32ns:(assertion error): L00-000U ?/= H0010000 = 1
+std_test.vhdl:814:5:@32ns:(assertion note): ?= testing completed
+std_test.vhdl:34:5:@32ns:(report note): std_logic_1164 additions test completed

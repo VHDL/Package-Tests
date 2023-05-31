@@ -1,0 +1,4 @@
+test.vhdl:111:5:@16ns:(assertion note): Null range test complete
+test.vhdl:76:5:@16ns:(assertion note): Reduction operations test completed
+std_test.vhdl:108:5:@16ns:(assertion note): Null range test complete
+std_test.vhdl:73:5:@16ns:(assertion note): Reduction operations test completed

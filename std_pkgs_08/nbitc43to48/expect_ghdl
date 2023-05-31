@@ -1,0 +1,10 @@
+test.vhdl:1636:5:@12ns:(assertion note): rising and falling edge test complete
+test.vhdl:924:5:@44ns:(assertion note): boolean test completed
+test.vhdl:1577:5:@44ns:(assertion note): Size_RES testing completed
+test.vhdl:1523:5:@44ns:(assertion note): match test completed
+test.vhdl:846:5:@44ns:(assertion note): numeric_bit test_minmax complete
+std_test.vhdl:1636:5:@12ns:(assertion note): rising and falling edge test complete
+std_test.vhdl:924:5:@44ns:(assertion note): boolean test completed
+std_test.vhdl:1577:5:@44ns:(assertion note): Size_RES testing completed
+std_test.vhdl:1523:5:@44ns:(assertion note): match test completed
+std_test.vhdl:846:5:@44ns:(assertion note): numeric_bit test_minmax complete

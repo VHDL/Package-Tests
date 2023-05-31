@@ -45,25 +45,25 @@ begin
     
     -- C.39
     usvec := "0011";
-    assert minimum(2,usvec) = unsigned("0010")
+    assert minimum(2,usvec) = "0010"
       report "Min of unsigned 2 and '0011' was not: " & to_string(minimum(2,usvec))
       severity failure;
     
     -- C.40
     svec := "1011";
-    assert minimum(2,svec) = signed("1011")
+    assert minimum(2,svec) = "1011"
       report "Min of signed 2 and '1011' was not: " & to_string(minimum(2,svec))
       severity failure;
     
     -- C.41
     usvec := "0011";
-    assert minimum(usvec,2) = unsigned("0010")
+    assert minimum(usvec,2) = "0010"
       report "Min of unsigned 2 and '0011' was not: " & to_string(minimum(2,usvec))
       severity failure;
     
     -- C.42
     svec := "1011";
-    assert minimum(svec,2) = signed("1011")
+    assert minimum(svec,2) = "1011"
       report "Min of signed 2 and '1011' was not: " & to_string(minimum(2,svec))
       severity failure;
     
@@ -83,25 +83,25 @@ begin
     
     -- C.45
     usvec := "0011";
-    assert maximum(2,usvec) = unsigned("0011")
+    assert maximum(2,usvec) = "0011"
       report "Max of unsigned 2 and '0011' was not: " & to_string(maximum(2,usvec))
       severity failure;
     
     -- C.46
     svec := "1011";
-    assert maximum(2,svec) = signed("0010")
+    assert maximum(2,svec) = "0010"
       report "Max of signed 2 and '1011' was not: " & to_string(maximum(2,svec))
       severity failure;
     
     -- C.47
     usvec := "0011";
-    assert maximum(usvec,2) = unsigned("0011")
+    assert maximum(usvec,2) = "0011"
       report "Max of unsigned 2 and '0011' was not: " & to_string(maximum(2,usvec))
       severity failure;
     
     -- C.48
     svec := "1011";
-    assert maximum(svec,2) = signed("0010")
+    assert maximum(svec,2) = "0010"
       report "Min of signed 2 and '1011' was not: " & to_string(maximum(2,svec))
       severity failure;
     
