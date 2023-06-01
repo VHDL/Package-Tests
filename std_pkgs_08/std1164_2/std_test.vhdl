@@ -14,7 +14,7 @@
 entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
-end entity std_std1164_2;
+end entity;
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -22,10 +22,6 @@ use std.textio.all;
 use std.env.all;
 architecture testbench of test is 
 
-  signal slv1 : std_logic_vector(7 downto 0);
-  signal slv2 : std_logic_vector(7 downto 0);
-  signal slvr : std_logic_vector(7 downto 0);
-  
 begin
   
   process
@@ -313,6 +309,6 @@ begin
   end process;
   
   
-end architecture testbench; test 
+end architecture;
 
 

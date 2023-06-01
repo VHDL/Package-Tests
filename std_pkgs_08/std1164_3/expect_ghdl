@@ -1,0 +1,10 @@
+../not_ieee/2008/std_logic_1164-body.vhdl:222:7:@0ms:(assertion failure): STD_LOGIC_1164."nand": arguments of overloaded 'nand' operator are not of the same length
+ghdl:error: assertion failed
+in process .test(testbench).P0
+  from: not_ieee.std_logic_1164.nand at std_logic_1164-body.vhdl:222
+ghdl:error: simulation failed
+../../src/ieee2008/std_logic_1164-body.vhdl:222:7:@0ms:(assertion failure): STD_LOGIC_1164."nand": arguments of overloaded 'nand' operator are not of the same length
+ghdl:error: assertion failed
+in process .test(testbench).P0
+  from: ieee.std_logic_1164.nand at std_logic_1164-body.vhdl:222
+ghdl:error: simulation failed

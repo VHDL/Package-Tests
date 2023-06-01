@@ -1,0 +1,14 @@
+test.vhdl:103:5:@0ms:(assertion note): std_logic_1164 alias test done
+test.vhdl:323:5:@0ms:(assertion note): std_logic_1164 to_string test done
+test.vhdl:665:5:@0ms:(assertion note): std_logic_1164 read/write test done
+test.vhdl:689:5:@0ms:(assertion note): std_logic_1164 boolean test done
+test.vhdl:831:5:@0ms:(assertion note): std_logic_1164 minmax test done
+test.vhdl:1087:5:@0ms:(assertion note): ?= test complete
+test.vhdl:59:5:@0ms:(report note): std1164_1 test,  test_new1164 complete
+std_test.vhdl:103:5:@0ms:(assertion note): std_logic_1164 alias test done
+std_test.vhdl:323:5:@0ms:(assertion note): std_logic_1164 to_string test done
+std_test.vhdl:665:5:@0ms:(assertion note): std_logic_1164 read/write test done
+std_test.vhdl:1241:5:@0ms:(assertion note): std_logic_1164 boolean test done
+std_test.vhdl:1383:5:@0ms:(assertion note): std_logic_1164 minmax test done
+std_test.vhdl:1639:5:@0ms:(assertion note): ?= test complete
+std_test.vhdl:59:5:@0ms:(report note): std1164_1 test,  test_new1164 complete

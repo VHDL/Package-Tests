@@ -14,7 +14,7 @@
 entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
-end entity std_std1164_1;
+end entity;
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -1640,6 +1640,6 @@ begin
       severity note;
     questionequ_done <= true;
   end process questionequ;
-end architecture testbench; test 
+end architecture;
 
 

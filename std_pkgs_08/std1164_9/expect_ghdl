@@ -1,0 +1,10 @@
+../not_ieee/2008/std_logic_1164-body.vhdl:302:7:@0ms:(assertion failure): STD_LOGIC_1164."xnor": arguments of overloaded 'xnor' operator are not of the same length
+ghdl:error: assertion failed
+in process .test(testbench).P0
+  from: not_ieee.std_logic_1164.xnor at std_logic_1164-body.vhdl:302
+ghdl:error: simulation failed
+../../src/ieee2008/std_logic_1164-body.vhdl:302:7:@0ms:(assertion failure): STD_LOGIC_1164."xnor": arguments of overloaded 'xnor' operator are not of the same length
+ghdl:error: assertion failed
+in process .test(testbench).P0
+  from: ieee.std_logic_1164.xnor at std_logic_1164-body.vhdl:302
+ghdl:error: simulation failed

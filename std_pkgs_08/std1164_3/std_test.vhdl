@@ -6,7 +6,7 @@
 --  Extended for coverage.
 -----------------------------------------------------------------------------
 entity test is 
-end entity std_std1164_3;
+end entity;
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -34,6 +34,6 @@ begin
   end process;
   
   
-end architecture testbench; test 
+end architecture;
 
 

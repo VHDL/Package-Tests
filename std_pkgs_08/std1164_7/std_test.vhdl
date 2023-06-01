@@ -14,7 +14,7 @@
 entity test is 
   generic (
     quiet : BOOLEAN := false);          -- run quietly
-end entity std_std1164_7;
+end entity;
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -22,9 +22,6 @@ use std.textio.all;
 use std.env.all;
 architecture testbench of test is 
 
-  signal slv1 : std_logic_vector(7 downto 0);
-  signal slv2 : std_logic_vector(7 downto 0);
-  signal slvr : std_logic_vector(7 downto 0);
   signal clk : std_logic := '0';
   
 begin
@@ -52,32 +49,6 @@ begin
   
   
   process
-    variable slv1 : std_logic_vector(7 downto 0);
-    variable slv2 : std_logic_vector(7 downto 0);
-    variable slv3 : std_logic_vector(9 downto 0) := (others => '0');
-    variable slvr : std_logic_vector(7 downto 0);
-    variable sulv1 : std_ulogic_vector(7 downto 0);
-    variable sulv2 : std_ulogic_vector(7 downto 0);
-    variable sulvr : std_ulogic_vector(7 downto 0);
-    
-    variable sl1 : std_ulogic;
-    variable sl2 : std_ulogic;
-    variable slr : std_ulogic;
-    
-    variable b1  : bit;
-    variable b2  : bit;
-    variable br  : bit;
-    variable bv1  : bit_vector(7 downto 0);
-    variable bv2  : bit_vector(7 downto 0);
-    variable bvr  : bit_vector(7 downto 0);
-    
-    variable x011 : x01;
-    variable x01r : x01;
-    variable x01z1 : x01z;
-    variable x01zr : x01z;
-    
-    variable ux011 : ux01;
-    variable ux01r : ux01;
   
   begin
     --  is_x
@@ -97,6 +68,6 @@ begin
     wait;
   end process;
   
-end architecture testbench; test 
+end architecture;
 
 
