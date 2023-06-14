@@ -1,0 +1,32 @@
+test.vhdl:40:7:@4ns:(report note): Expect Null: ''
+test.vhdl:41:7:@4ns:(report note): 00000010
+test.vhdl:40:7:@8ns:(report note): Expect Null: ''
+test.vhdl:41:7:@8ns:(report note): 00000100
+test.vhdl:40:7:@12ns:(report note): Expect Null: ''
+test.vhdl:41:7:@12ns:(report note): 00000111
+test.vhdl:40:7:@16ns:(report note): Expect Null: ''
+test.vhdl:41:7:@16ns:(report note): 00001110
+test.vhdl:40:7:@20ns:(report note): Expect Null: ''
+test.vhdl:41:7:@20ns:(report note): 00011011
+test.vhdl:54:7:@21ns:(report note): Test Passed ... a divide by zero error will now cause the simulation to terminate
+../not_ieee/2008/numeric_std-body.vhdl:171:5:@21ns:(assertion error): NUMERIC_STD.DIVMOD: DIV, MOD, or REM by zero
+ghdl:error: index (8) out of bounds (7 downto 0) at ../not_ieee/2008/numeric_std-body.vhdl:178
+in process .test(ops).P1
+  from: not_ieee.numeric_std.divmod at numeric_std-body.vhdl:178
+ghdl:error: simulation failed
+std_test.vhdl:40:7:@4ns:(report note): Expect Null: ''
+std_test.vhdl:41:7:@4ns:(report note): 00000010
+std_test.vhdl:40:7:@8ns:(report note): Expect Null: ''
+std_test.vhdl:41:7:@8ns:(report note): 00000100
+std_test.vhdl:40:7:@12ns:(report note): Expect Null: ''
+std_test.vhdl:41:7:@12ns:(report note): 00000111
+std_test.vhdl:40:7:@16ns:(report note): Expect Null: ''
+std_test.vhdl:41:7:@16ns:(report note): 00001110
+std_test.vhdl:40:7:@20ns:(report note): Expect Null: ''
+std_test.vhdl:41:7:@20ns:(report note): 00011011
+std_test.vhdl:54:7:@21ns:(report note): Test Passed ... a divide by zero error will now cause the simulation to terminate
+../../src/ieee2008/numeric_std-body.vhdl:171:5:@21ns:(assertion error): NUMERIC_STD.DIVMOD: DIV, MOD, or REM by zero
+ghdl:error: index (8) out of bounds (7 downto 0) at ../../src/ieee2008/numeric_std-body.vhdl:178
+in process .test(ops).P1
+  from: ieee.numeric_std.divmod at numeric_std-body.vhdl:178
+ghdl:error: simulation failed

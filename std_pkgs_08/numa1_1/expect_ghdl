@@ -1,0 +1,50 @@
+../not_ieee/2008/numeric_std-body.vhdl:1947:7:@4ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../not_ieee/2008/numeric_std-body.vhdl:1795:7:@4ns:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+test.vhdl:42:9:@4ns:(assertion error): Expected this message as a result
+../not_ieee/2008/numeric_std-body.vhdl:1947:7:@4ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../not_ieee/2008/numeric_std-body.vhdl:1947:7:@8ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../not_ieee/2008/numeric_std-body.vhdl:1795:7:@8ns:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+test.vhdl:42:9:@8ns:(assertion error): Expected this message as a result
+../not_ieee/2008/numeric_std-body.vhdl:1947:7:@8ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../not_ieee/2008/numeric_std-body.vhdl:1947:7:@12ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../not_ieee/2008/numeric_std-body.vhdl:1795:7:@12ns:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+test.vhdl:42:9:@12ns:(assertion error): Expected this message as a result
+../not_ieee/2008/numeric_std-body.vhdl:1947:7:@12ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../not_ieee/2008/numeric_std-body.vhdl:1947:7:@16ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../not_ieee/2008/numeric_std-body.vhdl:1795:7:@16ns:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+test.vhdl:42:9:@16ns:(assertion error): Expected this message as a result
+../not_ieee/2008/numeric_std-body.vhdl:1947:7:@16ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../not_ieee/2008/numeric_std-body.vhdl:1947:7:@20ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../not_ieee/2008/numeric_std-body.vhdl:1795:7:@20ns:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+test.vhdl:42:9:@20ns:(assertion error): Expected this message as a result
+../not_ieee/2008/numeric_std-body.vhdl:1947:7:@20ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+test.vhdl:58:7:@21ns:(report failure): Test Passed ...
+ghdl:error: report failed
+in process .test(ops).P1
+  from: process work.test(ops).P1 at test.vhdl:60
+ghdl:error: simulation failed
+../../src/ieee2008/numeric_std-body.vhdl:1947:7:@4ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../../src/ieee2008/numeric_std-body.vhdl:1795:7:@4ns:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+std_test.vhdl:42:9:@4ns:(assertion error): Expected this message as a result
+../../src/ieee2008/numeric_std-body.vhdl:1947:7:@4ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../../src/ieee2008/numeric_std-body.vhdl:1947:7:@8ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../../src/ieee2008/numeric_std-body.vhdl:1795:7:@8ns:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+std_test.vhdl:42:9:@8ns:(assertion error): Expected this message as a result
+../../src/ieee2008/numeric_std-body.vhdl:1947:7:@8ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../../src/ieee2008/numeric_std-body.vhdl:1947:7:@12ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../../src/ieee2008/numeric_std-body.vhdl:1795:7:@12ns:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+std_test.vhdl:42:9:@12ns:(assertion error): Expected this message as a result
+../../src/ieee2008/numeric_std-body.vhdl:1947:7:@12ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../../src/ieee2008/numeric_std-body.vhdl:1947:7:@16ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../../src/ieee2008/numeric_std-body.vhdl:1795:7:@16ns:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+std_test.vhdl:42:9:@16ns:(assertion error): Expected this message as a result
+../../src/ieee2008/numeric_std-body.vhdl:1947:7:@16ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../../src/ieee2008/numeric_std-body.vhdl:1947:7:@20ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+../../src/ieee2008/numeric_std-body.vhdl:1795:7:@20ns:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+std_test.vhdl:42:9:@20ns:(assertion error): Expected this message as a result
+../../src/ieee2008/numeric_std-body.vhdl:1947:7:@20ns:(assertion warning): NUMERIC_STD."/=": null argument detected, returning TRUE
+std_test.vhdl:58:7:@21ns:(report failure): Test Passed ...
+ghdl:error: report failed
+in process .test(ops).P1
+  from: process work.test(ops).P1 at std_test.vhdl:60
+ghdl:error: simulation failed

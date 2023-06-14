@@ -1,0 +1,10 @@
+test.vhdl:76:7:@21ns:(report failure): Test Passed ...
+ghdl:error: report failed
+in process .test(ops).P1
+  from: process work.test(ops).P1 at test.vhdl:78
+ghdl:error: simulation failed
+std_test.vhdl:76:7:@21ns:(report failure): Test Passed ...
+ghdl:error: report failed
+in process .test(ops).P1
+  from: process work.test(ops).P1 at std_test.vhdl:78
+ghdl:error: simulation failed

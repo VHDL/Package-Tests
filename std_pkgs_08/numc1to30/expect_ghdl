@@ -1,0 +1,68 @@
+../not_ieee/2008/numeric_std-body.vhdl:1866:7:@0ms:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+../not_ieee/2008/numeric_std-body.vhdl:1873:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+test.vhdl:49:5:@0ms:(assertion note): C.29 tests done
+../not_ieee/2008/numeric_std-body.vhdl:1160:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+../not_ieee/2008/numeric_std-body.vhdl:1160:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+test.vhdl:94:5:@0ms:(assertion note): C.1 tests done
+../not_ieee/2008/numeric_std-body.vhdl:1187:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+../not_ieee/2008/numeric_std-body.vhdl:1187:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+test.vhdl:158:5:@0ms:(assertion note): C.2 tests done
+../not_ieee/2008/numeric_std-body.vhdl:1210:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+test.vhdl:208:5:@0ms:(assertion note): C.3 tests done
+test.vhdl:272:5:@0ms:(assertion note): C.4 tests done
+../not_ieee/2008/numeric_std-body.vhdl:1258:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+test.vhdl:322:5:@0ms:(assertion note): C.5 tests done
+../not_ieee/2008/numeric_std-body.vhdl:1282:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+test.vhdl:380:5:@0ms:(assertion note): C.6 tests done
+../not_ieee/2008/numeric_std-body.vhdl:1312:7:@0ms:(assertion warning): NUMERIC_STD."<": null argument detected, returning FALSE
+../not_ieee/2008/numeric_std-body.vhdl:1312:7:@0ms:(assertion warning): NUMERIC_STD."<": null argument detected, returning FALSE
+test.vhdl:430:5:@0ms:(assertion note): C.7 tests done
+../not_ieee/2008/numeric_std-body.vhdl:1339:7:@0ms:(assertion warning): NUMERIC_STD."<": null argument detected, returning FALSE
+test.vhdl:498:5:@0ms:(assertion note): C.8 tests done
+../not_ieee/2008/numeric_std-body.vhdl:1410:7:@0ms:(assertion warning): NUMERIC_STD."<": null argument detected, returning FALSE
+test.vhdl:547:5:@0ms:(assertion note): C.11 tests done
+test.vhdl:611:5:@0ms:(assertion note): C.12 tests done
+../not_ieee/2008/numeric_std-body.vhdl:1362:7:@0ms:(assertion warning): NUMERIC_STD."<": null argument detected, returning FALSE
+test.vhdl:658:5:@0ms:(assertion note): C.9 tests done
+../not_ieee/2008/numeric_std-body.vhdl:1386:7:@0ms:(assertion warning): NUMERIC_STD."<": null argument detected, returning FALSE
+test.vhdl:720:5:@0ms:(assertion note): C.10 tests done
+../not_ieee/2008/numeric_std-body.vhdl:1842:7:@0ms:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+../not_ieee/2008/numeric_std-body.vhdl:1849:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+../not_ieee/2008/numeric_std-body.vhdl:1890:7:@0ms:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+../not_ieee/2008/numeric_std-body.vhdl:1897:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+test.vhdl:745:5:@0ms:(assertion note): c.28, c.30 tests done
+test.vhdl:747:5:@0ms:(assertion note): END OF test suite tb3
+../../src/ieee2008/numeric_std-body.vhdl:1866:7:@0ms:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:1873:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+std_test.vhdl:48:5:@0ms:(assertion note): C.29 tests done
+../../src/ieee2008/numeric_std-body.vhdl:1160:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:1160:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+std_test.vhdl:93:5:@0ms:(assertion note): C.1 tests done
+../../src/ieee2008/numeric_std-body.vhdl:1187:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:1187:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+std_test.vhdl:157:5:@0ms:(assertion note): C.2 tests done
+../../src/ieee2008/numeric_std-body.vhdl:1210:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+std_test.vhdl:207:5:@0ms:(assertion note): C.3 tests done
+std_test.vhdl:271:5:@0ms:(assertion note): C.4 tests done
+../../src/ieee2008/numeric_std-body.vhdl:1258:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+std_test.vhdl:321:5:@0ms:(assertion note): C.5 tests done
+../../src/ieee2008/numeric_std-body.vhdl:1282:7:@0ms:(assertion warning): NUMERIC_STD.">": null argument detected, returning FALSE
+std_test.vhdl:379:5:@0ms:(assertion note): C.6 tests done
+../../src/ieee2008/numeric_std-body.vhdl:1312:7:@0ms:(assertion warning): NUMERIC_STD."<": null argument detected, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:1312:7:@0ms:(assertion warning): NUMERIC_STD."<": null argument detected, returning FALSE
+std_test.vhdl:429:5:@0ms:(assertion note): C.7 tests done
+../../src/ieee2008/numeric_std-body.vhdl:1339:7:@0ms:(assertion warning): NUMERIC_STD."<": null argument detected, returning FALSE
+std_test.vhdl:497:5:@0ms:(assertion note): C.8 tests done
+../../src/ieee2008/numeric_std-body.vhdl:1410:7:@0ms:(assertion warning): NUMERIC_STD."<": null argument detected, returning FALSE
+std_test.vhdl:546:5:@0ms:(assertion note): C.11 tests done
+std_test.vhdl:610:5:@0ms:(assertion note): C.12 tests done
+../../src/ieee2008/numeric_std-body.vhdl:1362:7:@0ms:(assertion warning): NUMERIC_STD."<": null argument detected, returning FALSE
+std_test.vhdl:657:5:@0ms:(assertion note): C.9 tests done
+../../src/ieee2008/numeric_std-body.vhdl:1386:7:@0ms:(assertion warning): NUMERIC_STD."<": null argument detected, returning FALSE
+std_test.vhdl:719:5:@0ms:(assertion note): C.10 tests done
+../../src/ieee2008/numeric_std-body.vhdl:1842:7:@0ms:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:1849:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:1890:7:@0ms:(assertion warning): NUMERIC_STD."=": null argument detected, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:1897:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+std_test.vhdl:744:5:@0ms:(assertion note): c.28, c.30 tests done
+std_test.vhdl:746:5:@0ms:(assertion note): END OF test suite tb3

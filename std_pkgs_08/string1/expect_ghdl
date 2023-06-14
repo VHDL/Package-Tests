@@ -1,0 +1,14 @@
+test.vhdl:346:7:@0ms:(report note): Expect 2 HREAD vector truncated errors here
+../not_ieee/2008/numeric_std-body.vhdl:4030:7:@0ms:(assertion error): NUMERIC_STD.HREAD Error: Signed vector truncated
+../not_ieee/2008/numeric_std-body.vhdl:4030:7:@0ms:(assertion error): NUMERIC_STD.HREAD Error: Signed vector truncated
+test.vhdl:438:7:@0ms:(report note): Expect 2 OREAD vector truncated errors here
+../not_ieee/2008/numeric_std-body.vhdl:3970:7:@0ms:(assertion error): NUMERIC_STD.OREAD Error: Signed vector truncated
+../not_ieee/2008/numeric_std-body.vhdl:3970:7:@0ms:(assertion error): NUMERIC_STD.OREAD Error: Signed vector truncated
+test.vhdl:242:5:@0ms:(report note): Testing complete
+std_test.vhdl:346:7:@0ms:(report note): Expect 2 HREAD vector truncated errors here
+../../src/ieee2008/numeric_std-body.vhdl:4030:7:@0ms:(assertion error): NUMERIC_STD.HREAD Error: Signed vector truncated
+../../src/ieee2008/numeric_std-body.vhdl:4030:7:@0ms:(assertion error): NUMERIC_STD.HREAD Error: Signed vector truncated
+std_test.vhdl:438:7:@0ms:(report note): Expect 2 OREAD vector truncated errors here
+../../src/ieee2008/numeric_std-body.vhdl:3970:7:@0ms:(assertion error): NUMERIC_STD.OREAD Error: Signed vector truncated
+../../src/ieee2008/numeric_std-body.vhdl:3970:7:@0ms:(assertion error): NUMERIC_STD.OREAD Error: Signed vector truncated
+std_test.vhdl:242:5:@0ms:(report note): Testing complete

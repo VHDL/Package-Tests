@@ -1,0 +1,24 @@
+test.vhdl:39:7:@4ns:(report note): Expect Null: ''
+test.vhdl:40:7:@4ns:(report note): 00000010
+test.vhdl:39:7:@8ns:(report note): Expect Null: ''
+test.vhdl:40:7:@8ns:(report note): 00000100
+test.vhdl:39:7:@12ns:(report note): Expect Null: ''
+test.vhdl:40:7:@12ns:(report note): 00000111
+test.vhdl:39:7:@16ns:(report note): Expect Null: ''
+test.vhdl:40:7:@16ns:(report note): 00001110
+test.vhdl:39:7:@20ns:(report note): Expect Null: ''
+test.vhdl:40:7:@20ns:(report note): 00011011
+test.vhdl:53:7:@21ns:(report note): Test Passed ... now negate  x's
+test.vhdl:55:7:@21ns:(report note): XXXXXXXX
+std_test.vhdl:39:7:@4ns:(report note): Expect Null: ''
+std_test.vhdl:40:7:@4ns:(report note): 00000010
+std_test.vhdl:39:7:@8ns:(report note): Expect Null: ''
+std_test.vhdl:40:7:@8ns:(report note): 00000100
+std_test.vhdl:39:7:@12ns:(report note): Expect Null: ''
+std_test.vhdl:40:7:@12ns:(report note): 00000111
+std_test.vhdl:39:7:@16ns:(report note): Expect Null: ''
+std_test.vhdl:40:7:@16ns:(report note): 00001110
+std_test.vhdl:39:7:@20ns:(report note): Expect Null: ''
+std_test.vhdl:40:7:@20ns:(report note): 00011011
+std_test.vhdl:53:7:@21ns:(report note): Test Passed ... now negate  x's
+std_test.vhdl:55:7:@21ns:(report note): XXXXXXXX

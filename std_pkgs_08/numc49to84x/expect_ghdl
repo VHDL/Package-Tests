@@ -1,0 +1,66 @@
+../not_ieee/2008/numeric_std-body.vhdl:2209:7:@0ms:(assertion warning): NUMERIC_STD."?>": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2209:7:@0ms:(assertion warning): NUMERIC_STD."?>": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2223:11:@0ms:(report error): NUMERIC_STD."?>": '-' found in compare string
+../not_ieee/2008/numeric_std-body.vhdl:2242:7:@0ms:(assertion warning): NUMERIC_STD."?>": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2242:7:@0ms:(assertion warning): NUMERIC_STD."?>": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2256:11:@0ms:(report error): NUMERIC_STD."?>": '-' found in compare string
+../not_ieee/2008/numeric_std-body.vhdl:2301:7:@0ms:(assertion warning): NUMERIC_STD."?<": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2301:7:@0ms:(assertion warning): NUMERIC_STD."?<": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2315:11:@0ms:(report error): NUMERIC_STD."?<": '-' found in compare string
+../not_ieee/2008/numeric_std-body.vhdl:2334:7:@0ms:(assertion warning): NUMERIC_STD."?<": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2334:7:@0ms:(assertion warning): NUMERIC_STD."?<": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2348:11:@0ms:(report error): NUMERIC_STD."?<": '-' found in compare string
+../not_ieee/2008/numeric_std-body.vhdl:2393:7:@0ms:(assertion warning): NUMERIC_STD."?<=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2393:7:@0ms:(assertion warning): NUMERIC_STD."?<=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2407:11:@0ms:(report error): NUMERIC_STD."?<=": '-' found in compare string
+../not_ieee/2008/numeric_std-body.vhdl:2426:7:@0ms:(assertion warning): NUMERIC_STD."?<=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2426:7:@0ms:(assertion warning): NUMERIC_STD."?<=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2440:11:@0ms:(report error): NUMERIC_STD."?<=": '-' found in compare string
+../not_ieee/2008/numeric_std-body.vhdl:2485:7:@0ms:(assertion warning): NUMERIC_STD."?>=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2485:7:@0ms:(assertion warning): NUMERIC_STD."?>=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2499:11:@0ms:(report error): NUMERIC_STD."?>=": '-' found in compare string
+../not_ieee/2008/numeric_std-body.vhdl:2518:7:@0ms:(assertion warning): NUMERIC_STD."?>=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2518:7:@0ms:(assertion warning): NUMERIC_STD."?>=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2532:11:@0ms:(report error): NUMERIC_STD."?>=": '-' found in compare string
+../not_ieee/2008/numeric_std-body.vhdl:2586:7:@0ms:(assertion warning): NUMERIC_STD."?=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2586:7:@0ms:(assertion warning): NUMERIC_STD."?=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2620:7:@0ms:(assertion warning): NUMERIC_STD."?=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2620:7:@0ms:(assertion warning): NUMERIC_STD."?=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2680:7:@0ms:(assertion warning): NUMERIC_STD."?/=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2680:7:@0ms:(assertion warning): NUMERIC_STD."?/=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2714:7:@0ms:(assertion warning): NUMERIC_STD."?/=": null detected, returning X
+../not_ieee/2008/numeric_std-body.vhdl:2714:7:@0ms:(assertion warning): NUMERIC_STD."?/=": null detected, returning X
+test.vhdl:422:5:@0ms:(report note): Test Passed ...   Done C.49 to C.84 ...
+../../src/ieee2008/numeric_std-body.vhdl:2209:7:@0ms:(assertion warning): NUMERIC_STD."?>": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2209:7:@0ms:(assertion warning): NUMERIC_STD."?>": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2223:11:@0ms:(report error): NUMERIC_STD."?>": '-' found in compare string
+../../src/ieee2008/numeric_std-body.vhdl:2242:7:@0ms:(assertion warning): NUMERIC_STD."?>": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2242:7:@0ms:(assertion warning): NUMERIC_STD."?>": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2256:11:@0ms:(report error): NUMERIC_STD."?>": '-' found in compare string
+../../src/ieee2008/numeric_std-body.vhdl:2301:7:@0ms:(assertion warning): NUMERIC_STD."?<": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2301:7:@0ms:(assertion warning): NUMERIC_STD."?<": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2315:11:@0ms:(report error): NUMERIC_STD."?<": '-' found in compare string
+../../src/ieee2008/numeric_std-body.vhdl:2334:7:@0ms:(assertion warning): NUMERIC_STD."?<": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2334:7:@0ms:(assertion warning): NUMERIC_STD."?<": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2348:11:@0ms:(report error): NUMERIC_STD."?<": '-' found in compare string
+../../src/ieee2008/numeric_std-body.vhdl:2393:7:@0ms:(assertion warning): NUMERIC_STD."?<=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2393:7:@0ms:(assertion warning): NUMERIC_STD."?<=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2407:11:@0ms:(report error): NUMERIC_STD."?<=": '-' found in compare string
+../../src/ieee2008/numeric_std-body.vhdl:2426:7:@0ms:(assertion warning): NUMERIC_STD."?<=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2426:7:@0ms:(assertion warning): NUMERIC_STD."?<=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2440:11:@0ms:(report error): NUMERIC_STD."?<=": '-' found in compare string
+../../src/ieee2008/numeric_std-body.vhdl:2485:7:@0ms:(assertion warning): NUMERIC_STD."?>=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2485:7:@0ms:(assertion warning): NUMERIC_STD."?>=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2499:11:@0ms:(report error): NUMERIC_STD."?>=": '-' found in compare string
+../../src/ieee2008/numeric_std-body.vhdl:2518:7:@0ms:(assertion warning): NUMERIC_STD."?>=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2518:7:@0ms:(assertion warning): NUMERIC_STD."?>=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2532:11:@0ms:(report error): NUMERIC_STD."?>=": '-' found in compare string
+../../src/ieee2008/numeric_std-body.vhdl:2586:7:@0ms:(assertion warning): NUMERIC_STD."?=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2586:7:@0ms:(assertion warning): NUMERIC_STD."?=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2620:7:@0ms:(assertion warning): NUMERIC_STD."?=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2620:7:@0ms:(assertion warning): NUMERIC_STD."?=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2680:7:@0ms:(assertion warning): NUMERIC_STD."?/=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2680:7:@0ms:(assertion warning): NUMERIC_STD."?/=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2714:7:@0ms:(assertion warning): NUMERIC_STD."?/=": null detected, returning X
+../../src/ieee2008/numeric_std-body.vhdl:2714:7:@0ms:(assertion warning): NUMERIC_STD."?/=": null detected, returning X
+std_test.vhdl:422:5:@0ms:(report note): Test Passed ...   Done C.49 to C.84 ...

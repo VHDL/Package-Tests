@@ -1,0 +1,48 @@
+test.vhdl:752:5:@144ns:(assertion note): boolean test completed
+../not_ieee/2008/numeric_std-body.vhdl:3681:7:@144ns:(assertion warning): NUMERIC_STD.STD_MATCH: L'LENGTH /= R'LENGTH, returning FALSE
+../not_ieee/2008/numeric_std-body.vhdl:3681:7:@144ns:(assertion warning): NUMERIC_STD.STD_MATCH: L'LENGTH /= R'LENGTH, returning FALSE
+../not_ieee/2008/numeric_std-body.vhdl:3707:7:@144ns:(assertion warning): NUMERIC_STD.STD_MATCH: L'LENGTH /= R'LENGTH, returning FALSE
+../not_ieee/2008/numeric_std-body.vhdl:3707:7:@144ns:(assertion warning): NUMERIC_STD.STD_MATCH: L'LENGTH /= R'LENGTH, returning FALSE
+test.vhdl:1569:7:@144ns:(report note): Expect an error from a compare function here
+../not_ieee/2008/numeric_std-body.vhdl:2308:11:@144ns:(report error): NUMERIC_STD."?<": '-' found in compare string
+test.vhdl:1657:7:@144ns:(report note): Expect an error from a compare function here
+../not_ieee/2008/numeric_std-body.vhdl:2400:11:@144ns:(report error): NUMERIC_STD."?<=": '-' found in compare string
+test.vhdl:1745:7:@144ns:(report note): Expect an error from a compare function here
+../not_ieee/2008/numeric_std-body.vhdl:2216:11:@144ns:(report error): NUMERIC_STD."?>": '-' found in compare string
+test.vhdl:1861:7:@144ns:(report note): Expect an error from a compare function here
+../not_ieee/2008/numeric_std-body.vhdl:2492:11:@144ns:(report error): NUMERIC_STD."?>=": '-' found in compare string
+test.vhdl:2076:7:@144ns:(report note): Expect an error from a compare function here
+../not_ieee/2008/numeric_std-body.vhdl:2341:11:@144ns:(report error): NUMERIC_STD."?<": '-' found in compare string
+test.vhdl:2185:7:@144ns:(report note): Expect an error from a compare function here
+../not_ieee/2008/numeric_std-body.vhdl:2433:11:@144ns:(report error): NUMERIC_STD."?<=": '-' found in compare string
+test.vhdl:2287:7:@144ns:(report note): Expect an error from a compare function here
+../not_ieee/2008/numeric_std-body.vhdl:2249:11:@144ns:(report error): NUMERIC_STD."?>": '-' found in compare string
+test.vhdl:2403:7:@144ns:(report note): Expect an error from a compare function here
+../not_ieee/2008/numeric_std-body.vhdl:2525:11:@144ns:(report error): NUMERIC_STD."?>=": '-' found in compare string
+test.vhdl:2422:5:@144ns:(assertion note): match test completed
+test.vhdl:2473:5:@144ns:(assertion note): Size_RES testing completed
+test.vhdl:674:5:@144ns:(assertion note): numeric_std test_minmax complete
+std_test.vhdl:752:5:@144ns:(assertion note): boolean test completed
+../../src/ieee2008/numeric_std-body.vhdl:3681:7:@144ns:(assertion warning): NUMERIC_STD.STD_MATCH: L'LENGTH /= R'LENGTH, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:3681:7:@144ns:(assertion warning): NUMERIC_STD.STD_MATCH: L'LENGTH /= R'LENGTH, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:3707:7:@144ns:(assertion warning): NUMERIC_STD.STD_MATCH: L'LENGTH /= R'LENGTH, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:3707:7:@144ns:(assertion warning): NUMERIC_STD.STD_MATCH: L'LENGTH /= R'LENGTH, returning FALSE
+std_test.vhdl:1569:7:@144ns:(report note): Expect an error from a compare function here
+../../src/ieee2008/numeric_std-body.vhdl:2308:11:@144ns:(report error): NUMERIC_STD."?<": '-' found in compare string
+std_test.vhdl:1657:7:@144ns:(report note): Expect an error from a compare function here
+../../src/ieee2008/numeric_std-body.vhdl:2400:11:@144ns:(report error): NUMERIC_STD."?<=": '-' found in compare string
+std_test.vhdl:1745:7:@144ns:(report note): Expect an error from a compare function here
+../../src/ieee2008/numeric_std-body.vhdl:2216:11:@144ns:(report error): NUMERIC_STD."?>": '-' found in compare string
+std_test.vhdl:1861:7:@144ns:(report note): Expect an error from a compare function here
+../../src/ieee2008/numeric_std-body.vhdl:2492:11:@144ns:(report error): NUMERIC_STD."?>=": '-' found in compare string
+std_test.vhdl:2076:7:@144ns:(report note): Expect an error from a compare function here
+../../src/ieee2008/numeric_std-body.vhdl:2341:11:@144ns:(report error): NUMERIC_STD."?<": '-' found in compare string
+std_test.vhdl:2185:7:@144ns:(report note): Expect an error from a compare function here
+../../src/ieee2008/numeric_std-body.vhdl:2433:11:@144ns:(report error): NUMERIC_STD."?<=": '-' found in compare string
+std_test.vhdl:2287:7:@144ns:(report note): Expect an error from a compare function here
+../../src/ieee2008/numeric_std-body.vhdl:2249:11:@144ns:(report error): NUMERIC_STD."?>": '-' found in compare string
+std_test.vhdl:2403:7:@144ns:(report note): Expect an error from a compare function here
+../../src/ieee2008/numeric_std-body.vhdl:2525:11:@144ns:(report error): NUMERIC_STD."?>=": '-' found in compare string
+std_test.vhdl:2422:5:@144ns:(assertion note): match test completed
+std_test.vhdl:2473:5:@144ns:(assertion note): Size_RES testing completed
+std_test.vhdl:674:5:@144ns:(assertion note): numeric_std test_minmax complete
