@@ -1,17 +1,7 @@
 This repo is intended to contain VHDL tests to enable full stimulus of default
-packages sourcecode.  This will enable venders to test against a known set of
+2008 packages source code.  This will enable venders to test against a known set of
 tests which fully cover each standards package source code.
 
 
-Current state:  WIP
-
-std_pkgs_08 directory is the initial checkin of code used to fully cover
-numeric_std and numeric_bit packages.  Some tests are targeted at other packages
-but they are incomplete.  std_pkgs_08 directory contains scripts which are
-dependent on Metrics simulation infrustructure and will be replaced by generic
-scripts.  They were included to provide a guide of what was done before so
-that there is a reference.
-
-The test set is going to implement a generic system to regress it starting with
-GHDL.  An attempt to make the scripting able to be adapted for other tools.
-
+Scripts to run tests under GHDL are now available.
+See the README file in the std_pkgs_08 directory
