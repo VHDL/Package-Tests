@@ -46,6 +46,10 @@ has been added which are a copy of an eye ball inspected actual output.
 Now looking at the std1164 group.
 
 
+June 14 status:
+All tests are now included in a test run.  The grun script now takes a
+parameter to state the standard to run.
+
 
 USAGE:
 
@@ -53,7 +57,14 @@ the repo is in place as you are reading this README
 
 navigate to the 'simulation' directory and run the "grun" script
 grun is a TCL script and can be run in several ways.
-Unix:  chmod + grun    then  ./grun  while being in the simulation dir
+Unix:  chmod + grun    then  ./grun <standard> while being in the simulation dir
 Windows:  power shell,  run as you would under Unix,  TCL must be
           installed and accessable.
 (windows untested as of yet)
+
+
+std_pkgs_08/simulation$ ./grun 
+Input field required:
+    numeric_bit      run tests numeric_bit.tlst
+    numeric_std      run tests numeric_std.tlst
+    std_logic_1164   run tests std1164.tlst
