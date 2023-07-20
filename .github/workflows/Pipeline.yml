@@ -1,0 +1,33 @@
+name: Pipeline
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+
+  GHDL:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        suite:
+          - std_logic_1164
+          - numeric_std
+          - numeric_bit
+    steps:
+
+      - uses: actions/checkout@v3
+
+      - run: |
+          cat > 'ghdl_${{ matrix.suite }}.sh' <<'EOF'
+          #!/usr/bin/env sh
+          cd $(dirname "$0")/std_pkgs_08/simulation
+          ./grun ${{ matrix.suite }}
+          EOF
+          chmod +x 'ghdl_${{ matrix.suite }}.sh'
+
+      - uses: docker://gcr.io/hdl-containers/sim
+        with:
+          args: ./ghdl_${{ matrix.suite }}.sh
